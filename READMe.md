@@ -39,15 +39,15 @@ If you get the message below:
 > it looks like wine32 is missing, you should install it.  
 as root, please execute "apt-get install wine32"
 
-open the Software & Updates form and select the Security and recommended updates option (Figure 2), enter your admin password (multiple times), close the form, update/reload if requested and then run the command:
+open the Software & Updates form and select the Security and recommended updates option (Figure 1), enter your admin password (multiple times), close the form, update/reload if requested and then run the command:
 
 > sudo apt-get install wine32
 
 <hr />
 
-![Figure 2](images/ubuntu_figure1b.jpg)
+![Figure 1](images/ubuntu_figure1b.jpg)
 
-Figure 2
+Figure 1
 
 <hr />
 
@@ -57,12 +57,12 @@ If not prompted to do so during the set up you may have to add a wine-mono packa
 
 > wine uninstaller   
 
-in a terminal, pressing the ```Install``` button and selecting the file (Figure 3).
+in a terminal, pressing the ```Install``` button and selecting the file (Figure 2).
 
 <hr />
 
-![Figure 3](images/ubuntu_figure1.jpg)
+![Figure 2](images/ubuntu_figure1.jpg)
 
-Figure 3
+Figure 2
 
 <hr />
