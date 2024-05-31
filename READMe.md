@@ -19,13 +19,15 @@ While the guides below discuss the operation of ```circularMT``` on various Linu
 
 where the file "myProgram.msi' in the installation file that was downloaded to the Downloads folder in your Linux account Home folder.
 
+* [Centos - Stream 8 and 9](centos_8_9.md)
+ 
+* [Debian trixie](debian.md)
+
+* [FreeBSD](FreeBSD.md)
+  
 * [openSUSE - 'Leap' 15.5:](openSUSE.md)
 
 * [Ubuntu - 'Noble Numbat' 24.04:](ubuntu.md)
-
-* [Centos - Stream 8 and 9](centos_8_9.md)
-
-* [Debian trixie](debian.md)
 
 * [macOS](macOS.md)
 
