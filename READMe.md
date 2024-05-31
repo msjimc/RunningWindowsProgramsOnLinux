@@ -11,9 +11,13 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 
 ***Note***: The commands described to install ```Wine``` require admin/superuser rights which may mean that the installation needs to be done by the IT department on a work's computer. 
 
-While the guides below discuss the operation of ```circularMT``` on various Linux OS's, the installation of Wine is the same.  
-
 # Install guides 
+
+While the guides below discuss the operation of ```circularMT``` on various Linux OS's, the installation of other programs is the same. If the program available as a ___*.msi___ files, install the application by issuing the command:
+
+> wine ~/Downloads/myProgram.msi>
+
+where the file "myProgram.msi' in the installation file that was downloaded to the Downloads folder in your Linux account Home folder.
 
 * [openSUSE - 'Leap' 15.5:](openSUSE.md)
 
