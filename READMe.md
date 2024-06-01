@@ -27,7 +27,7 @@ where the file "myProgram.msi' in the installation file that was downloaded to t
   
 * [openSUSE - 'Leap' 15.5:](openSUSE.md)
 
-* [SlackWare - 15.0_RELEASE](slackware.md)
+* [SlackWare - 15.0_RELEASE](slackware-15-0_RELEASE.md)
 
 * [Ubuntu - 'Noble Numbat' 24.04:](ubuntu.md)
 
