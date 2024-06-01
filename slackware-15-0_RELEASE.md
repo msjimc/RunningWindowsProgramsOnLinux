@@ -16,7 +16,7 @@ Log in as root, the wine-9.9-x86_64-1sg.txz file was downloaded from https://sou
 
 > sudo -i upgradepkg --install-new ~/Downloads/wine-9.9-x86_64-1sg.txz
 
-This installed wine64 version 9.0 which was configured for each user with the command:
+This installed wine64 version 9.9 which was configured for each user with the command:
 
 > wine64 winecfg
 
