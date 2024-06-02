@@ -20,7 +20,7 @@ Figure 1
 A terminal was opened and the installation checked (Figure 2) by entering the command
 
 >$  wine --version  
-wine-5.0
+wine-9.0
 
 While this install wine version 5.0, it is sufficient to run most programs without issue. 
 
