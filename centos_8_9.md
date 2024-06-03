@@ -6,7 +6,7 @@ While the two methods below show how to install wine and wine64 on to Centos Str
 
 ## Centos machines
 
-Centos Stream  8 and 9 were installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and 20 GB hard disk and was configured with default settings for a workstation with gnome as the desktop.
+Centos Stream  8 and 9 were installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and VirtualBOX: 20 GB hard disk or HyperV: dynamically resizing hard disk and was configured with default settings for a workstation with gnome as the desktop.
 
 The circularMT_64.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder (~/Downloads) using FireFox. 
 

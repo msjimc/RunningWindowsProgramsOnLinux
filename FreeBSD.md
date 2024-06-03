@@ -1,5 +1,5 @@
 # FreeBSD 
-FreeBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, 20 GB hard disk. The KDE desktop was installed using the following commands:
+FreeBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, VirtualBox: 20 GB hard disk or HyperV: dynamically resizing hard disk. The KDE desktop was installed using the following commands:
 
 > pkg install --quiet --yes kde5 plasma5-sddm-kcm sddm xorg  
 > sysrc dbus_enable="YES" && service dbus start  

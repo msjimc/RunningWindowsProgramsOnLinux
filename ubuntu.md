@@ -1,7 +1,7 @@
 # Ubuntu:
 
 ## Starting point
-Ubuntu 'Noble Numbat' 24.04 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and 25 GB hard disk and was configured with default settings. It uses the gnome desktop.
+Ubuntu 'Noble Numbat' 24.04 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and VirtualBox: 25 GB hard disk or HyperV: dynamically resizing hard disk and was configured with default settings. It uses the gnome desktop.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
 
