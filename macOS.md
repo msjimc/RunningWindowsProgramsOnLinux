@@ -10,6 +10,8 @@ Once Wine was installed, circularMT.exe was downloaded and started by clicking o
 
 Figure 1: circularMT.exe running on masOS (Mojave 10.14.6).
 
+# Installation instructions on ___winehq.org___
+
 ## Install as a package
 * https://wiki.winehq.org/MacOS
 
