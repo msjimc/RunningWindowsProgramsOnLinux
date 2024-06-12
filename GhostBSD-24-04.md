@@ -1,5 +1,5 @@
 # GhostBSD 
-GhostBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, VirtualBox: 20 GB hard disk or HyperV: dynamically resizing hard disk. The default Mate desktop was installed.
+GhostBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, VirtualBox: 20 GB hard disk or HyperV: dynamically resizing hard disk. The default desktop 'Mate' was installed.
 
 ## Preparation and installation
 
