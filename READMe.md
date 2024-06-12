@@ -30,6 +30,8 @@ where myProgram is the executable files which in this case is in your account's 
 * [Debian trixie](debian.md)
 
 * [FreeBSD](FreeBSD.md)
+
+* [GhostBSD](GhostBSD-24-04.md)
   
 * [openSUSE - 'Leap' 15.5:](openSUSE.md)
 

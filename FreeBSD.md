@@ -39,6 +39,7 @@ The version of wine can then be determined with:
 
 This installation installs wine64 which is the 64 bit version that requires 64 bit programs 
 
+***Note:***   
 FreeBSD will not run an application from a terminal with root privileges, so return to your normal account with ```Ctrl``` + ```D``` before running circularMT_64.exe with:
 
 > wine64 ~/Downloads/circularMT_64.exe
@@ -53,7 +54,7 @@ Figure 1: circularMT_64.exe running on FreeBSD 14.0-RELEASE with the KDE5 deskto
 
 <hr />
 
-Once imported, the mitochondrial genome can be modified as described in the [Guide](../Guide/README.md) Figure 2.
+Once imported, the mitochondrial genome can be modified as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md) Figure 2.
 
 <hr />
 

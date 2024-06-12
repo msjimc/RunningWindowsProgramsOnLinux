@@ -95,7 +95,7 @@ Figure 2a Centos Stream 9
 
 <hr />
 
-Once, a mitochondrial genome has been imported, it's map can be modified as shown in the [Guide](../Guide/README.md) (Figure 3).
+Once, a mitochondrial genome has been imported, it's map can be modified as shown in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md) (Figure 3).
 
 <hr />
 

@@ -38,9 +38,9 @@ Figure 2: The openSUSE package manager installs wine version 8 which is sufficie
 
 > wine ~/Downloads/circularMT.exe
 
-When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3). it may also fail to run circularMT stating that wine-mono isn't installed this can be installed following the commands [here: wine-mono-is-missing](../Program/wine.md#wine-mono-is-missing).
+When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3). It may also fail to run circularMT stating that wine-mono isn't installed this can be installed following the commands [here: wine-mono-is-missing](https://github.com/msjimc/circularMT/tree/master/Program/wine.md#wine-mono-is-missing).
 
-Once running, data can be imported as described in the [Guide](../Guide/README.md). While circularMT is running on openSUSE, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on openSUSE it appears to be in c:/users/<username>/Downloads/ to circularMT.
+Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on openSUSE, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on openSUSE it appears to be in c:/users/<username>/Downloads/ to circularMT.
 
 <hr />
 
@@ -50,7 +50,7 @@ Figure 3
 
 <hr />
 
-Once imported, the mitochondrial genome can be modified as described in the [Guide](../Guide/README.md) Figure 4.
+Once imported, the mitochondrial genome can be modified as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md) Figure 4.
 
 <hr />
 

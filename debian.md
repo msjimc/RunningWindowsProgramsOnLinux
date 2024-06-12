@@ -56,7 +56,7 @@ Figure 3
 
 When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3).
 
-Once running, data can be imported as described in the [Guide](../Guide/README.md). While circularMT is running on Debian, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on Debian it appears to be in c:/users/<username>/Downloads/ to circularMT.
+Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on Debian, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on Debian it appears to be in c:/users/<username>/Downloads/ to circularMT.
 
 <hr />
 
@@ -66,7 +66,7 @@ Figure 3
 
 <hr />
 
-Once imported, the mitochondrial genome can be modified as described in the [Guide](../Guide/README.md) Figure 4.
+Once imported, the mitochondrial genome can be modified as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md) Figure 4.
 
 <hr />
 
