@@ -2,7 +2,9 @@
 
 ## Starting point
 
-Mint 21.3 "Virginia" was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, with 40 GB hard disk (VirtualBox) or dynamically resizing hard disk (HyperV) and was configured with the default settings. The chosen ISO image was pre-configured to use the Mate Desktop. 
+Mint 21.3 "Virginia" was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, with 40 GB hard disk (VirtualBox)  and was configured with the default settings. The chosen ISO image was pre-configured to use the Mate Desktop.
+
+***Note:*** Mint 21.3 can not be installed on HyperV so only the virtualbox installation was tested.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder (~/Downloads) using FireFox.
 
@@ -14,23 +16,32 @@ Wine can be installed either quickly via the [package manager](#quick-route), th
 
 ### Quick route 
 
-***Note:*** This is from the wen and I haven't tried it.
+Open the Package manager and search for ***wine*** (Figure 1)
 
-First update Mint (optional) with:
+![Figure 1](images/mintPackageFigure1.jpg)
 
-> sudo apt update && sudo apt upgrade
+Figure 1
 
-Next enable the 32 bit environment:
+<hr />
 
-> sudo dpkg --add-architecture i386
+Click on the first Wine package and install by pressing the ```Continue``` button (Figure 2)
 
-Finally install Wine:
+![Figure 2](images/mintPackageFigure2.jpg)
 
-> sudo apt install wine -y
+Figure 2
 
-And text the version with:
+<hr />
+
+
+Test the version with:
 
 > wine --version
+
+and 
+
+> wine64 -- version
+
+Both commands should suggest version 6 is installed.
 
 ### Official Route
 
@@ -99,10 +110,43 @@ and then install Wine
 Finally test the installation with:  
 > wine --version
 
+and 
+
+> wine64 --version
+
+Version 9 should be installed for both the 32 and 64 bit versions.
+
 ### Configure Wine
 
 To configure Wine use:
 
 > winecfg
 
-When dialogue boxes appear Install Wine-Mono and finally select the version of Windows you wish to emulate using the options at the bottom of the ```Wine configuration``` form.
+When the first dialogue box appears Install Wine-Mono (Figure 3)
+and finally select the version of Windows you wish to emulate using the options at the bottom of the ```Wine configuration``` form (Figure 4).
+
+![Figure 3](images/mintPackageFigure3.jpg)
+
+Figure 3
+
+<hr />
+
+![Figure 4](images/mintPackageFigure4.jpg)
+
+Figure 4
+
+<hr />
+
+## Running a Windows program
+
+To run circularMT, download it to the accounts Download folder from [here](https://github.com/msjimc/circularMT/Program) and start with this command in a terminal:
+
+> wine ~/Downloads/circularMT.exe
+
+This will start circularMT.exe which can be used as if it was on a Windows PC (Figure 5)
+
+![Figure 5](images/mintPackageFigure5.jpg)
+
+Figure 5
+
+<hr />
