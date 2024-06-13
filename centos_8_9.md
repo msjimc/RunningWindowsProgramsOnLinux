@@ -2,7 +2,7 @@
 
 ## Important
 
-While the two methods below show how to install wine and wine64 on to Centos Stream 8 and 9, it seems that only wine64 can be installed on Centos at the moment. Consequently, download the circularMT_64.exe application and run with wine64.
+While the two methods below show how to install wine and wine64 on to Centos Stream 8 and 9, it seems that only wine64 can be installed on Centos  8 or 9 at the moment. Consequently, download the circularMT_64.exe application and run with wine64.
 
 ## Centos machines
 
@@ -31,7 +31,7 @@ and then install the wine package with:
 
 > sudo yom install wine 
 
- This will start the installation process by downloading and then installing a number of packages after asking for permission to install them. Once completed, when first using wine, it will perform and auto-configuring step and may request you allow the downloading of several files. Once completed, the auto-configuration will not run again.
+ This will start the installation process by downloading and then installing a number of packages after asking for permission to install them. Once completed, when first using wine, it will perform an auto-configuring step and may request you allow the downloading of several files. Once completed, the auto-configuration will not run again.
 
 ![Figure 1](images/centos9_config.jpg)
 
@@ -41,17 +41,21 @@ Figure 1  Centos Stream 9
 
 ### From source code
 
-Unlike the installations on the other systems, ```Wine``` was also installed on Centos by compiling the source code as described by __onlycliches__ on the AlmaLinux forum: [[Script] Compile WINE with 32-Bit App Support](https://forums.almalinux.org/t/script-compile-wine-with-32-bit-app-support/2556). This page contains a script that compiles both the 32 and 64 - bit versions of ```wine```. It appears that things have changed a little since it was written and so needed two extra lines adding.    
+Unlike the installations on the other systems, ```Wine``` was also installed on Centos by compiling the source code as described by __onlycliches__ on the AlmaLinux forum: [[Script] Compile WINE with 32-Bit App Support](https://forums.almalinux.org/t/script-compile-wine-with-32-bit-app-support/2556). This page contains a script that compiles both the 32 and 64 - bit versions of ```wine```. It appears that things have changed a little since it was written and so the script needed two extra lines adding.    
+
+For Centos Stream 9:
 
 > sudo dnf yum install dnf-plugins-core   
 sudo yum config-manager --set-enabled crb  
-
-in Centos 8 crb is called powertools: 
+ 
+For Centos Stream 8:
 
 > sudo dnf yum install dnf-plugins-core   
 sudo yum config-manager --set-enabled powertools  
 
-The script can be viewed as containing 3 stages the first downloads the require files and packages and requires user interaction to authorise the downloads, this may take ~5 mins. The next part compiles ```wine``` and may take serval hours, but doesn't require user interaction. The final part installs and configures ```wine``` and requires you to OK a few steps via dialogue box(es).  
+It seems powertools was renamed crb in Centos Stream 9
+
+The script can be viewed as containing 3 stages the first downloads the require files and packages and requires user interaction to authorise the downloads, this may take ~5 mins. The next part compiles ```wine``` and may take serval hours, but doesn't require user interaction. The final part installs and configures ```wine``` and requires you to OK a few steps via dialogue box(es). This means you can start the installation and then after a few minutes leave it to run overnight and then finish off in the morning.
 
 To run the installation script download the install.txt files from [here](https://github.com/msjimc/circularMT/Program) and then run it from a terminal with bash:
 
@@ -61,7 +65,7 @@ To run the installation script download the install.txt files from [here](https:
 
 ## Running circularMT
 
-Once installed, download circularMT_64.exe and the sequence.gb file were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to our Downloads folder (~/Downloads) using FireFox and the issue the following commands 64 bit programs:
+Once installed, download circularMT_64.exe and the sequence.gb file from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to our Downloads folder (~/Downloads) using FireFox and the issue the following commands 64 bit programs:
  
 > wine64 ~/Downloads/circularMT_64.exe  
 

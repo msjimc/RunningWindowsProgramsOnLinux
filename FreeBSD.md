@@ -1,5 +1,5 @@
 # FreeBSD 
-FreeBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, VirtualBox: 20 GB hard disk or HyperV: dynamically resizing hard disk. The KDE desktop was installed using the following commands:
+FreeBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors. On VirtualBox it had a 20 GB hard disk while on HyperV it used a dynamically resizing hard disk. The KDE desktop was installed using the following commands:
 
 > pkg install --quiet --yes kde5 plasma5-sddm-kcm sddm xorg  
 > sysrc dbus_enable="YES" && service dbus start  
@@ -21,7 +21,7 @@ If you have admin rights elevate the terminal to raised privileges with:
 
 and then enter root's password.
 
-The FreeBSD web site contains instructions on how to install Wine [here](https://docs.freebsd.org/en/books/handbook/wine/). It suggest that you first install wine-gecko which contains web browser functions that some programs expect:
+The FreeBSD web site contains instructions on how to install Wine [here](https://docs.freebsd.org/en/books/handbook/wine/). It suggests that you first install wine-gecko which contains web browser functions that some programs expect:
 
 >pkg install wine-gecko
 
@@ -40,7 +40,7 @@ The version of wine can then be determined with:
 This installation installs wine64 which is the 64 bit version that requires 64 bit programs 
 
 ***Note:***   
-FreeBSD will not run an application from a terminal with root privileges, so return to your normal account with ```Ctrl``` + ```D``` before running circularMT_64.exe with:
+FreeBSD will not run an application from a terminal using root privileges, so return to your normal account with ```Ctrl``` + ```D``` before running circularMT_64.exe with:
 
 > wine64 ~/Downloads/circularMT_64.exe
 

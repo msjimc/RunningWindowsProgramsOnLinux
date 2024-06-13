@@ -1,8 +1,10 @@
 # macOS
 
-Unlike the various Linux installation, macOS can not easily be run on a virtual machine so, WIne was installed on a 2012 macMIni running macOS Mojave 10.14.6. Wine was installed with the aid of XQuarts 2.7.7, by downloading the "Wine Stable" package from [here](https://dl.winehq.org/wine-builds/macosx/download.html) and clicking on the package in the download folder. Newer versions of macOS (macOS Catalina (10.15.4) and later) install Wine using the "brew" application as described [here](https://wiki.winehq.org/MacOS).
+Unlike the various Linux installation, macOS can not easily be run on a virtual machine therefore Wine was installed on a 2012 macMini running macOS Mojave 10.14.6. Wine was installed with the aid of XQuarts 2.7.7, by downloading the "Wine Stable" package from [here](https://dl.winehq.org/wine-builds/macosx/download.html) and clicking on the package in the download folder. Newer versions of macOS (macOS Catalina (10.15.4) and later) install Wine using the "brew" application as described [here](https://wiki.winehq.org/MacOS).
 
 Once Wine was installed, circularMT.exe was downloaded and started by clicking on it in the downloads folder. When first used, Wine will run a configuration step which may take a while to run and also download wine-mono and wine-gecko before starting the Windows application (Figure 1). 
+
+Since Mojave 10.14 was released in 2014, it uses old packages and so installs wine version 5.0. This is OK for many programs and newer versions of macOS will install newer versions of Wine.
 
 <hr />
 

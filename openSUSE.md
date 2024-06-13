@@ -2,7 +2,7 @@
 
 ## Starting point
 
-OpenSUSE - 'Leap' 15.5 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, VirtualBox: 20 GB hard disk or HyperV: dynamically resizing hard disk and was configured with default settings with the KDE desktop.
+OpenSUSE - 'Leap' 15.5 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors. The installation on VirtualBox used a 20 GB hard disk while the installation on HyperV used a dynamically resizing hard disk. Both installations were installed with default settings with the KDE desktop.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder (~/Downloads) using FireFox.
 
@@ -10,7 +10,7 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 * **The account performing the installation must have admin rights.**
 
-YaST was started from the application launcher and the ```Software Management``` option selected. From there ***Wine***, ***wine-32bit***, ***wine-gecko***, ***wine-mono*** and ***winetricks*** were selected and installed (Figure 1). 
+YaST was started from the application launcher and the ```Software Management``` option selected. The repositories were search using wine as a search term and from the list of hits ***Wine***, ***wine-32bit***, ***wine-gecko***, ***wine-mono*** and ***winetricks*** were selected and installed (Figure 1). 
 
 <hr />
 
@@ -38,9 +38,9 @@ Figure 2: The openSUSE package manager installs wine version 8 which is sufficie
 
 > wine ~/Downloads/circularMT.exe
 
-When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3). It may also fail to run circularMT stating that wine-mono isn't installed this can be installed following the commands [here: wine-mono-is-missing](https://github.com/msjimc/circularMT/tree/master/Program/wine.md#wine-mono-is-missing).
+When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3). It may also fail to run circularMT stating that wine-mono isn't installed this can be installed following the instructions [here (wine-mono-is-missing)](READMe.md#wine-mono-is-missing).
 
-Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on openSUSE, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on openSUSE it appears to be in c:/users/<username>/Downloads/ to circularMT.
+Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on openSUSE, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on openSUSE it appears to be in c:/users/\<username>/Downloads/ to circularMT.
 
 <hr />
 
