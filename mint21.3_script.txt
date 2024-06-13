@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+# 240415 0956 - install_wine_9_lmc.sh 
+
+sudo apt update
+sudo apt upgrade
+sudo apt install dirmngr ca-certificates software-properties-common apt-transport-https curl -y
+sudo dpkg --add-architecture i386
+curl -s https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg > /dev/null
+echo deb [signed-by=/usr/share/keyrings/winehq.gpg] http://dl.winehq.org/wine-builds/ubuntu/ jammy main | sudo tee /etc/apt/sources.list.d/winehq.list
+sudo apt update
+sudo apt install winehq-stable --install-recommends 
+wine --version
