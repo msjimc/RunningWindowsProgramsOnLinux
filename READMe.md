@@ -38,7 +38,7 @@ where myProgram is the executable files which in this case is in your account's 
 
 * [GhostBSD 24.04](GhostBSD-24-04.md)
 
-* [Mint 21.3](int-21-3-mate.md)
+* [Mint 21.3](Mint-21-3-mate.md)
 
 * [macOS Mojave 10.14.6](macOS.md)
   
