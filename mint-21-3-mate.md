@@ -1,4 +1,4 @@
-# Mint 21.3 "Virginia" with Mate desktop
+# Mint 21.3 "Virginia" with the Mate desktop
 
 ## Starting point
 
