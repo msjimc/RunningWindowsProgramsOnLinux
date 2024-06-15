@@ -1,23 +1,20 @@
-# Ubuntu:
+# Arch Linux:
 
 ## Starting point
-Arch Linux 2024.06.01 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and on VirtualBox with 25 GB hard disk while on HyperV it had a dynamically resizing hard disk. Both installations were configured with default settings and the gnome desktop.
+Arch Linux 2024.06.01 was installed on two 64 bit virtual machines with 4,096 MB of RAM, 4 processors. The VirtualBox virtual machine had a 25 GB hard disk while HyperV's virtual machine had a dynamically resizing hard disk. Both installations were installed using the ***archinstall*** script with default settings and the gnome desktop.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
-
-## Preparation
-
-
 
 ## Installation
 
 Before ```Wine``` can be installed the multilib repository needs to be enabled. This is done by editing the ***/etc/pacman.conf*** file and uncommenting two lines:
 
-Original   
+Original: 
+
 > #[multilib]   
 > #Include = /etc/pacman.d/mirrorlist
 
-Changed too
+Changed too:
 
 >[multilib]  
 > Include = /etc/pacman.d/mirrorlist
@@ -26,7 +23,7 @@ It is then recommended to do a full system update:
 
 > sudo pacman -Syu
 
-```Wine``` is then installed with the dependencies wine-mono and wine-gecko by:
+```Wine``` is installed with the dependencies wine-mono and wine-gecko by:
 
 > sudo pacman -S wine wine-mono wine-gecko
 
