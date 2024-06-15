@@ -7,7 +7,7 @@ While many programs are designed to run only on Windows PCs, it is possible to r
 
 Basically, ```Wine``` sits in between a Windows application and the operating system and intercepts any messages they sent to each other and converts them from what they don't understand to something they do understand. This results in a program running as if it is on a Windows PC while in fact running in a Linux environment.
 
-```Wine``` can work on a range of Unix inspired operating systems, such as various flavours of Linux, BSD and macOS. Whiles these operating systems have many similarities they tend to differ in how software is installed and which software repositories they favour. Consequently, how ```Wine``` is installed varies from operating system to operating system. The ```Wine``` website has instructions for installing ```Wine``` on Ubuntu, Debian, Fedora, macOS, SUSE, Slackware and FreeBSD on its [downloads page](https://wiki.winehq.org/Download). However, unlike installing applications on Windows, the process can be a little involved for some systems. Consequently, this repository contains nine short guides that show how I installed ```Wine``` on Centos - Stream (8 and 9), Debian - Trixie, FreeBSD - 14.0_RELEASE, GhostBSD-24.04, openSUSE - Leap 15.5, macOS, Mint 21.3 (with Mate), SlackWare - 15.0_RELEASE and Ubuntu - Noble Numbat 24.04. These guides expect you to have the OS installed and also have a reasonable understanding of how to install applications on them
+```Wine``` can work on a range of Unix inspired operating systems, such as various flavours of Linux, BSD and macOS. Whiles these operating systems have many similarities they tend to differ in how software is installed and which software repositories they favour. Consequently, how ```Wine``` is installed varies from operating system to operating system. The ```Wine``` website has instructions for installing ```Wine``` on Ubuntu, Debian, Fedora, macOS, SUSE, Slackware and FreeBSD on its [downloads page](https://wiki.winehq.org/Download). However, unlike installing applications on Windows, the process can be a little involved for some systems. Consequently, this repository contains nin10e short guides that show how I installed ```Wine``` on Arch linux 2024.06.01, Centos - Stream (8 and 9), Debian - Trixie, FreeBSD - 14.0_RELEASE, GhostBSD-24.04, openSUSE - Leap 15.5, macOS, Mint 21.3 (with Mate), SlackWare - 15.0_RELEASE and Ubuntu - Noble Numbat 24.04. These guides expect you to have the OS installed and also have a reasonable understanding of how to install applications on them
  or the willingness to search online for the solution to any issues. 
 
 ***Note***: The operating systems used in this guide were installed on two different types of virtual machines hosted: Oracle's VirtualBox on a Windows 10 computer and on Microsoft's Hyper-V on a Windows 11 PC, however, this should not affect how they functioned. The installation was performed on a freshly installed and updated virtual machine.
@@ -29,6 +29,8 @@ or for 64 bit programs
 where myProgram is the executable files which in this case is in your account's downloads folder.
 
 ## Install guides 
+
+* [Arch Linux 2024.06.01](ArchLinux.md)
 
 * [Centos - Stream 8 and 9](centos_8_9.md)
  
