@@ -26,7 +26,7 @@ It is then recommended to do a full system update:
 
 > sudo pacman -Syu
 
-```Wine``` is then installed with the dependencies wine-mono and wine-gecko with:
+```Wine``` is then installed with the dependencies wine-mono and wine-gecko by:
 
 > sudo pacman -S wine wine-mono wine-gecko
 
@@ -34,7 +34,7 @@ The installation and version can be checked with:
  
 > wine --version
 
-and 
+and/or 
 
 > wine64 --version
 
