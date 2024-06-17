@@ -13,12 +13,11 @@ Wine was installed with the command:
 
 and the version determined to be wine 9.5 (Staging) for 32 and 64 bit versions with the following commands:
 
-> wine --version   
+> wine --version     
+
+and/or  
+
 > wine64 --version   
-
-wine-mono was installed with:
-
-> sudo dnf wine-mono
 
 and wine was configure with the following command:
 

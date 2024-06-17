@@ -63,7 +63,7 @@ where myProgram is the executable files which in this case is in your account's 
 
 * [macOS Mojave 10.14.6](macOS.md)
 
-* [manjaro-Cinnamon 23.0.1](manjaro.md)    
+* [Manjaro - Cinnamon 23.0.1](manjaro.md)    
 
 * [Mint 21.3](mint-21-3-mate.md)
 
