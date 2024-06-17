@@ -31,7 +31,7 @@ Update the package information:
 
 Finally ```Wine``` was installed using:
 
-> sudo apt install --install-recommends wine-stable
+> sudo apt install --install-recommends winehq-stable
 
 Check the version with:
 
