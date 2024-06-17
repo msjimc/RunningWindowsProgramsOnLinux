@@ -1,13 +1,13 @@
-# Elementary OS 7.1:
+# Zorin 17 core
 
 ## Starting point
-Elementary OS 7.1 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and on VirtualBox with 25 GB hard disk while on HyperV it had a dynamically resizing hard disk. Both installations were configured with default settings and the Elementary OS desktop.
+Zorin core 17 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and on VirtualBox with 25 GB hard disk while on HyperV it had a dynamically resizing hard disk. Both installations were configured with default settings and the Elementary OS desktop.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
 
 ## Installation
 
-Elementary OS 7.1 is derived from Ubuntu so the installation is similar to the Ubuntu installation.  Initially, the system was prepared for 32 bit applications by entering the following command in a terminal:
+Zorin core 17 is derived from Ubuntu Jammy so the installation is similar to the Ubuntu installation.  Initially, the system was prepared for 32 bit applications by entering the following command in a terminal:
 
 > sudo dpkg --add-architecture i386 
 
@@ -18,8 +18,7 @@ Next the required repository was added:
 
 followed by the required source locations. For Ubuntu Noble Numbat 24.04 the command is:
 
-> 	
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+> sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
 
 ***Note:*** This is different from the Ubuntu file, if you used the latest Ubuntu version you will install Wine 6.0.
 

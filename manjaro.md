@@ -3,9 +3,9 @@
 ## Starting point
 Manjaro-Cinnamon 23.0.1 was installed on two 64 bit virtual machines with 4,096 MB of RAM, 4 processors. The VirtualBox virtual machine had a 25 GB hard disk while HyperV's virtual machine had a dynamically resizing hard disk. Both installations were installed using the default settings and the Cinnamon desktop.
 
-The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using Firefox.
+The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using Vivaldi.
 
-***Note:*** Vivaldi is the default browser, but on this installation it didn't work so I used Firefox .
+***Note:*** Vivaldi is the default browser, but on these installations it had to be started using the ***Internet*** > ***Avahi VNC Server Browser*** option in the start menu .
 
 ## Installation
 
@@ -32,6 +32,8 @@ with both commands stating wine 9.9 is installed.
 The installation is configured with:
 
 > winecfg
+
+Unlike the other installations, because I downloaded and installed wine-mono, winecfg will not ask to install it.
 
 ## Running circularMT.exe
 
