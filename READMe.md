@@ -21,8 +21,9 @@ macOS,
 Manjaro-Cinnamon 23.0.1
 Mint 21.3 (with Mate),   
 SlackWare - 15.0_RELEASE 
-and   
-Ubuntu - Noble Numbat 24.04. 
+Ubuntu - Noble Numbat 24.04,
+and  
+Zorin - Core 17 
      
 These guides expect you to have the OS installed and also have a reasonable understanding of how to install applications on them or the willingness to search online for the solution to any issues. 
 
@@ -71,6 +72,8 @@ where myProgram is the executable files which in this case is in your account's 
 * [SlackWare - 15.0_RELEASE](slackware-15-0_RELEASE.md)
 
 * [Ubuntu - 'Noble Numbat' 24.04:](ubuntu.md)
+
+* [Zorin - Core 17.1](zorin-17.md)
 
 ## Common issues
 

@@ -1,7 +1,7 @@
 # Zorin 17 core
 
 ## Starting point
-Zorin core 17 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and on VirtualBox with 25 GB hard disk while on HyperV it had a dynamically resizing hard disk. Both installations were configured with default settings and the Elementary OS desktop.
+Zorin core 17 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and on VirtualBox with 25 GB hard disk while on HyperV it had a dynamically resizing hard disk. Both installations were configured with default settings and the default Gnome desktop.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
 
@@ -56,7 +56,7 @@ This will open the program which can be used as described in the [guide]( https:
 
 <hr />
 
-![Figure 1](images/elementaryOS.jpg)
+![Figure 1](images/Zorin-core-17_figure1.jpg)
 
 Figure 1
 
