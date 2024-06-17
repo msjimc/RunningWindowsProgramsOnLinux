@@ -1,7 +1,7 @@
-# ElementaryOS 7.1:
+# Elementary OS 7.1:
 
 ## Starting point
-ElementaryOS 7.1 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and on VirtualBox with 25 GB hard disk while on HyperV it had a dynamically resizing hard disk. Both installations were configured with default settings and the Elementary OS desktop.
+Elementary OS 7.1 was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and on VirtualBox with 25 GB hard disk while on HyperV it had a dynamically resizing hard disk. Both installations were configured with default settings and the Elementary OS desktop.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
 
@@ -9,7 +9,7 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 ## Installation
 
-ElementaryOS 7.1 is derived from Ubuntu so the installation is similar to the Ubuntu installation.  Initially, the system was prepared for 32 bit applications by entering the following command in a terminal:
+Elementary OS 7.1 is derived from Ubuntu so the installation is similar to the Ubuntu installation.  Initially, the system was prepared for 32 bit applications by entering the following command in a terminal:
 
 > sudo dpkg --add-architecture i386 
 
