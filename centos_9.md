@@ -35,7 +35,7 @@ and then install the wine package with:
 
  > winecfg
 
- This will ask to install wine-mono (Figure 1) and end when it shows a configuration dialogue box, which requires no modification.
+ This will ask to install wine-mono (Figure 1) and end when it shows a 2nd configuration dialogue box, which requires no modification.
 
 ![Figure 1](images/centos9_config.jpg)
 
