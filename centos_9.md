@@ -1,6 +1,6 @@
 # Centos stream  9:
 
-Centos Stream  9 were installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and VirtualBOX: 20 GB hard disk or HyperV: dynamically resizing hard disk and was configured with default settings for a workstation with PIXEL as the desktop.
+Centos Stream  9 were installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and VirtualBOX: 20 GB hard disk or HyperV: dynamically resizing hard disk and was configured with default settings for a workstation with Gnome as the desktop.
 
 ***Note*** Centos appears not to have access to all the dependencies for Wine on run on Centos 64 bit to run 32 bit applications, but can run 64 bit Windows applications. Consequently, I download circularMT_64.exe below and not circular.exe.
 If you need 32 bit programs to run on your installation, at the very bottom of this page is a section on installing from [source code](#installing-from-source-code) which may help.
