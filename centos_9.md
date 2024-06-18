@@ -43,8 +43,6 @@ Figure 1  Centos Stream 9
 
 <hr />
 
-
-
 ## Running circularMT
 
 Once installed, download circularMT_64.exe and the sequence.gb file from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to our Downloads folder (~/Downloads) using FireFox and the issue the following commands 64 bit programs:

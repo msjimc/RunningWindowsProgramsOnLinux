@@ -18,11 +18,11 @@ FreeBSD - 14.0_RELEASE,
 GhostBSD-24.04,   
 openSUSE - Leap 15.5,   
 macOS,   
-Manjaro-Cinnamon 23.0.1
-Mint 21.3 (with Mate), 
-Raspberry Pi Desktop,
-SlackWare - 15.0_RELEASE 
-Ubuntu - Noble Numbat 24.04,
+Manjaro-Cinnamon 23.0.1,  
+Mint 21.3 (with Mate),   
+Raspberry Pi Desktop,  
+SlackWare - 15.0_RELEASE ,  
+Ubuntu - Noble Numbat 24.04,  
 and  
 Zorin - Core 17 
      
