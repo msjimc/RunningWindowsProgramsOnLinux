@@ -10,7 +10,7 @@ The circularMT_64.exe file and the sequence.gb file were downloaded from the Git
 
 * **The account performing the installation must have admin rights.**
 
-Unlike the Debian installation that used the package manager, its necessary to follow the [WineHQ install method](https://wiki.winehq.org/Debian) for Debian.  
+Unlike the Debian installation that used the package manager, its necessary to follow the [WineHQ install method](https://wiki.winehq.org/Debian) for Debian, since the repository contains a Wine 5.0 package rather than Wine 9.0.  
 
 First set the architecture for 32 bit programs
 
