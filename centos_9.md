@@ -21,7 +21,7 @@ It is suggested that the computer is updated and rebooted before starting the in
 
 ### Using the yum package manager
 
-Wine can be installed on Centos Stream 8 and 9 using the yum package manager (with admin rights). Wine is not in the standard repositories and so you need to link to the Extra Packages for Enterprise Linux (EPEL) plus the crb repositories with the following command:
+Wine can be installed on Centos Stream 9 using the yum package manager (with admin rights). Wine is not in the standard repositories and so you need to link to the Extra Packages for Enterprise Linux (EPEL) plus the crb repositories with the following command:
 
 > sudo dnf install epel-release   
 > sudo yum install dnf-plugins-core   
@@ -53,9 +53,9 @@ Once installed, download circularMT_64.exe and the sequence.gb file from the Git
 
 <hr />
 
-![Figure 1b](images/centos9_figure1.jpg)
+![Figure 1](images/centos9_figure1.jpg)
 
-Figure 1b  Centos Stream 9
+Figure 1  Centos Stream 9
 
 <hr />
 
@@ -63,15 +63,9 @@ As with the other installations on other Linux and BSD systems, circularMT displ
 
 <hr /> 
 
-![Figure 2a](images/centos_figure3.jpg)
+![Figure 2](images/centos9_figure3.jpg)
 
-Figure 2a Centos Stream 8
-
-<hr />
-
-![Figure 2a](images/centos9_figure3.jpg)
-
-Figure 2a Centos Stream 9
+Figure 2 Centos Stream 9
 
 <hr />
 
@@ -79,15 +73,9 @@ Once, a mitochondrial genome has been imported, it's map can be modified as show
 
 <hr />
 
-![Figure 3a](images/centos_figure4.jpg)
-
-Figure 3a Centos 8
-
-<hr />
-
 ![Figure 3a](images/centos9_figure3.jpg)
 
-Figure 3a Centos 8
+Figure 3a Centos 9
 
 <hr />
 
