@@ -53,12 +53,6 @@ Once installed, download circularMT_64.exe and the sequence.gb file from the Git
 
 <hr />
 
-![Figure 1a](images/centos_figure1.jpg)
-
-Figure 1a  Centos Stream 8
-
-<hr />
-
 ![Figure 1b](images/centos9_figure1.jpg)
 
 Figure 1b  Centos Stream 9
