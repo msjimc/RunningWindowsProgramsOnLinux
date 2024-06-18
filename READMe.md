@@ -48,7 +48,7 @@ where myProgram is the executable files which in this case is in your account's 
 
 ## Install guides 
 
-* [Arch Linux 2024.06.01](ArchLinux.md)
+* [Arch Linux 2024.06.01](archLinux.md)
 
 * [Centos - Stream 8 and 9](centos_8_9.md)
  
@@ -58,9 +58,9 @@ where myProgram is the executable files which in this case is in your account's 
 
 * [Fedora release 40](fedora.md)
 
-* [FreeBSD 14.0-RELEASE](FreeBSD.md)
+* [FreeBSD 14.0-RELEASE](freeBSD.md)
 
-* [GhostBSD 24.04](GhostBSD-24-04.md)
+* [GhostBSD 24.04](ghostBSD-24-04.md)
 
 * [macOS Mojave 10.14.6](macOS.md)
 
