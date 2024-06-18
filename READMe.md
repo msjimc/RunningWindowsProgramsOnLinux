@@ -19,7 +19,8 @@ GhostBSD-24.04,
 openSUSE - Leap 15.5,   
 macOS,   
 Manjaro-Cinnamon 23.0.1
-Mint 21.3 (with Mate),   
+Mint 21.3 (with Mate), 
+Raspberry Pi Desktop,
 SlackWare - 15.0_RELEASE 
 Ubuntu - Noble Numbat 24.04,
 and  
@@ -70,6 +71,8 @@ where myProgram is the executable files which in this case is in your account's 
 * [openSUSE - 'Leap' 15.5:](openSUSE.md)
 
 * [SlackWare - 15.0_RELEASE](slackware-15-0_RELEASE.md)
+
+* [Raspberry Pi Desktop](raspberry_Pi_Desktop.md)
 
 * [Ubuntu - 'Noble Numbat' 24.04:](ubuntu.md)
 

@@ -56,23 +56,13 @@ Figure 3
 
 When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3).
 
-Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on Debian, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on Debian it appears to be in c:/users/<username>/Downloads/ to programs running with Wine.
+Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on Debian, the file system will appear like a Windows based system rather than a Linux file system. While the user's Download folder is in /home/username/Downloads on Debian it appears to be in c:/users/<username>/Downloads/ to programs running with Wine. Once imported, the mitochondrial genome can be modified as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md) Figure 3.
 
 <hr />
 
-![Figure 3](images/openSUSE_figure3.jpg)
+![Figure 3](images/Debian-trixie-Xfce.jpg)
 
 Figure 3
-
-<hr />
-
-Once imported, the mitochondrial genome can be modified as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md) Figure 4.
-
-<hr />
-
-![Figure 4](images/openSUSE_15.5_Leap-KDE.jpg)
-
-Figure 4
 
 <hr />
 

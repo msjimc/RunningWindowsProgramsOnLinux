@@ -40,7 +40,7 @@ Check the version with:
 
 which should be 9.0.
 
-Wine is configured with:
+```Wine``` is configured with:
 
 > winecfg
 

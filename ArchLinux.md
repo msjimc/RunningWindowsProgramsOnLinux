@@ -35,7 +35,7 @@ and/or
 
 > wine64 --version
 
-with both commands stating wine 9.10 is installed.
+with both commands stating wine 9.11 is installed.
 
 The installation is configured with:
 
