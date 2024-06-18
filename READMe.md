@@ -10,7 +10,7 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 ```Wine``` can work on a range of Unix inspired operating systems, such as various flavours of Linux, BSD and macOS. Whiles these operating systems have many similarities they tend to differ in how software is installed and which software repositories they favour. Consequently, how ```Wine``` is installed varies from operating system to operating system. The ```Wine``` website has instructions for installing ```Wine``` on Ubuntu, Debian, Fedora, macOS, SUSE, Slackware and FreeBSD on its [downloads page](https://wiki.winehq.org/Download). However, unlike installing applications on Windows, the process can be a little involved for some systems. Consequently, this repository contains a number of short guides that show how I installed ```Wine``` on:  
 
 Arch linux 2024.06.01,   
-Centos - Stream (8 and 9),   
+Centos - Stream 9,   
 Debian - Trixie,     
 Elementary OS 7.1,  
 Febora 40,   
@@ -50,7 +50,7 @@ where myProgram is the executable files which in this case is in your account's 
 
 * [Arch Linux 2024.06.01](archLinux.md)
 
-* [Centos - Stream 8 and 9](centos_8_9.md)
+* [Centos - Stream 9](centos_9.md)
  
 * [Debian trixie](debian.md)
 
