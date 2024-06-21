@@ -20,6 +20,7 @@ openSUSE - Leap 15.5,
 macOS,   
 Manjaro-Cinnamon 23.0.1,  
 Mint 21.3 (with Mate),   
+MX Linux 23.3 (KDE),  
 Raspberry Pi Desktop,  
 SlackWare - 15.0_RELEASE ,  
 Ubuntu - Noble Numbat 24.04,  
@@ -67,6 +68,8 @@ where myProgram is the executable files which in this case is in your account's 
 * [Manjaro - Cinnamon 23.0.1](manjaro.md)    
 
 * [Mint 21.3](mint-21-3-mate.md)
+
+* [MX Linux 23.2 KDE](mx-Linux-KDE.md)
 
 * [openSUSE - 'Leap' 15.5:](openSUSE.md)
 

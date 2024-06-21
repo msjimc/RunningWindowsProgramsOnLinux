@@ -22,13 +22,13 @@ A terminal was opened and the installation checked (Figure 2) by entering the co
 >$  wine --version  
 wine-9.0
 
-However on a Debian 11.9 installation this install wine version 5.0 due to the packages available to the earlier build, it is sufficient to run most programs without issue. 
+(However on a Debian 11.9 installation this install wine version 5.0 due to the packages available to the earlier build, it is sufficient to run most programs without issue.) 
 
 <hr />
 
 ![Figure 2](images/debian_figure2.jpg)
 
-Figure 2
+Figure 2: Wine 9.0 is installed on Debian GNU/Linux trixie/sid
 
 <hr />
 
@@ -49,6 +49,8 @@ which opened the ```Add/remove Programs``` dialogue box (Figure 3). Press the ``
 Figure 3
 
 <hr />
+
+## Using Wine to run a Windows .Net program
 
 ```Wine``` was then used to run circularMT with the following command:
 
