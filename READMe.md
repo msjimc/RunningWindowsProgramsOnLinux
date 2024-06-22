@@ -13,12 +13,13 @@ Arch linux 2024.06.01,
 Centos - Stream 9,   
 Debian - Trixie,     
 Elementary OS 7.1,  
+EndeavourOS - Gemini,  
 Febora 40,   
 FreeBSD - 14.0_RELEASE,   
 GhostBSD-24.04,   
 openSUSE - Leap 15.5,   
 macOS,   
-Manjaro-Cinnamon 23.0.1,  
+Manjaro - Cinnamon 23.0.1,  
 Mint 21.3 (with Mate),   
 MX Linux 23.3 (KDE),  
 Raspberry Pi Desktop,  
@@ -56,6 +57,8 @@ where myProgram is the executable files which in this case is in your account's 
 * [Debian trixie](debian.md)
 
 * [Elementary OS](elementaryOS.md)
+
+* [EndeavourOS Gemini 2024-04-20](endeavourOS.md)
 
 * [Fedora release 40](fedora.md)
 
