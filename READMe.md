@@ -17,16 +17,22 @@ EndeavourOS - Gemini,
 Febora 40,   
 FreeBSD - 14.0_RELEASE,   
 GhostBSD-24.04,   
-openSUSE - Leap 15.5,   
 macOS,   
 Manjaro - Cinnamon 23.0.1,  
 Mint 21.3 (with Mate),   
 MX Linux 23.3 (KDE),  
+Nobara 39,  
+openSUSE - Leap 15.5,   
+POP! OS 22.02 (Gnome),   
 Raspberry Pi Desktop,  
 SlackWare - 15.0_RELEASE ,  
 Ubuntu - Noble Numbat 24.04,  
 and  
 Zorin - Core 17 
+
+The distros were chosen because they were on the Wine download page, in the top 10 most popular distros over the last 12 months (ending June 2024) on the [DistroWatch.com](https://distrowatch.com/dwres.php?resource=popularity) or because I'd worked with them in the resent past. For example Centos is a popular OS for HPC and headless servers in British universities.
+
+I attempted to use a few other distros that ultimately ended in failure. These include a number of BSD distros which failed as their maintainers viewed desktops with destain! I give up on Gentoo as the installation seemed to be a task that was never going to end: The installation videos on Youtube were over 2 hours long. I also tried Scientific Linux as it seemed to be geared toward science type uses, but gave up since it has now been superseded by Centos and none of the package managers seemed to work. fINALLY, CachyOS would not run on either a virtualbox or HyperV for different reasons.  
      
 These guides expect you to have the OS installed and also have a reasonable understanding of how to install applications on them or the willingness to search online for the solution to any issues. 
 
@@ -51,38 +57,25 @@ where myProgram is the executable files which in this case is in your account's 
 ## Install guides 
 
 * [Arch Linux 2024.06.01](archLinux.md)
-
-* [Centos - Stream 9](centos_9.md)
- 
+* [Centos - Stream 9](centos_9.md) 
 * [Debian trixie](debian.md)
-
 * [Elementary OS](elementaryOS.md)
-
 * [EndeavourOS Gemini 2024-04-20](endeavourOS.md)
-
 * [Fedora release 40](fedora.md)
-
 * [FreeBSD 14.0-RELEASE](freeBSD.md)
-
 * [GhostBSD 24.04](ghostBSD-24-04.md)
-
 * [macOS Mojave 10.14.6](macOS.md)
-
 * [Manjaro - Cinnamon 23.0.1](manjaro.md)    
-
 * [Mint 21.3](mint-21-3-mate.md)
-
 * [MX Linux 23.2 KDE](mx-Linux-KDE.md)
-
+* [Nobara 39](nobara.md)
 * [openSUSE - 'Leap' 15.5:](openSUSE.md)
-
+* [POP! OS](pop_os.md)
 * [SlackWare - 15.0_RELEASE](slackware-15-0_RELEASE.md)
-
 * [Raspberry Pi Desktop](raspberry_Pi_Desktop.md)
-
 * [Ubuntu - 'Noble Numbat' 24.04:](ubuntu.md)
-
 * [Zorin - Core 17.1](zorin-17.md)
+
 
 ## Common issues
 
