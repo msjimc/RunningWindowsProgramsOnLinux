@@ -5,7 +5,7 @@ The circularMT_64.exe file and the sequence.gb file were downloaded from the Git
 
 ## Installation
 
-When first installed, Nobara includes Wine 8.2 (Staging) installed. After the strongly advised system update Wine was upgraded to wine 9.9 (Staging) (Figure 1)
+When first installed, Nobara has Wine 8.2 (Staging) installed. After the strongly advised system update, Wine was upgraded to wine 9.9 (Staging) (Figure 1)
 
 <hr />
 
