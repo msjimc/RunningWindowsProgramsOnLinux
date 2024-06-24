@@ -22,7 +22,7 @@ A terminal was opened and the installation checked (Figure 2) by entering the co
 >$  wine --version  
 wine-9.0
 
-(However on a Debian 11.9 installation this install wine version 5.0 due to the packages available to the earlier build, it is sufficient to run most programs without issue.) 
+(However on a Debian 11.9 installation this will install wine version 5.0 due to the packages available to the earlier build. This version is sufficient to run most programs without issue.) 
 
 <hr />
 
@@ -31,6 +31,22 @@ wine-9.0
 Figure 2: Wine 9.0 is installed on Debian GNU/Linux trixie/sid
 
 <hr />
+
+### Linking to the wine-mono file
+
+You can either manually download the wine-mono file and link it to the Wine installation or run the winecfg command that will both link Wine to the wine-mono file and configure Wine.
+
+#### winecfg
+
+The command 
+:
+
+> winecfg
+
+will both download the wine-mono file and link it to the Wine installation as well as configure your Wine environment.
+
+
+#### Manually link to wine-mono
 
 The [wine-mono-9.1.0-x86.msi](https://dl.winehq.org/wine/wine-mono/9.1.0/wine-mono-9.1.0-x86.msi) file was downloaded from https://dl.winehq.org/wine/wine-mono/9.1.0/ to the user's Download folder and in a terminal the following command was entered:
 
@@ -56,7 +72,7 @@ Figure 3
 
 > wine ~/Downloads/circularMT.exe
 
-When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3).
+When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3) if you didn't run winecfg after installing Wine.
 
 Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on Debian, the file system will appear like a Windows based system rather than a Linux file system. While the user's Download folder is in /home/username/Downloads on Debian it appears to be in c:/users/<username>/Downloads/ to programs running with Wine. Once imported, the mitochondrial genome can be modified as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md) Figure 3.
 

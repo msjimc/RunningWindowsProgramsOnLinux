@@ -29,6 +29,14 @@ The version of wine can then be determined with:
 
 This installation installs wine64 which is the 64 bit version that requires 64 bit programs 
 
+Finally, configure Wine with the following command:
+
+> winecfg
+
+This will also download wine-mono if you didn't run the pkg install wine-mono step earlier.
+
+## Running circularMT.exe
+
 ***Note:***  
 GhostBSD will not run an application from a terminal using root privileges, so return to your normal account with ```Ctrl``` + ```D``` before running circularMT_64.exe with:
 

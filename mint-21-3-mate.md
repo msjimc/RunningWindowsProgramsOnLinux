@@ -45,7 +45,7 @@ Both commands should suggest version 6 is installed.
 
 ### Official Route
 
-***Note:*** This is from the wen and I haven't tried it.
+***Note:*** This is from the Wine web site and I haven't tried it.
 
 First update Mint (optional) with:
 
@@ -84,14 +84,15 @@ Finally test the installation with:
 
 First update Mint (optional) with:
 
->s udo apt update  
+> sudo apt update  
 > sudo apt upgrade
 
 Update the repository setting with:   
 > sudo apt install dirmngr ca-certificates software-properties-common apt-transport-https curl -y
 
 Next enable the 32 bit environment:  
-sudo dpkg --add-architecture i386
+
+> sudo dpkg --add-architecture i386
 
 Install the GPG key:  
 > curl -s https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor | sudo tee /usr/share/keyrings/winehq.gpg > /dev/null

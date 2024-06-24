@@ -23,7 +23,11 @@ Figure 2
 
 <hr />
 
-A terminal was opened and the installation checked (Figure 2) by entering the command: $  wine --version  that indicated that Wine 8.12 was installed.
+A terminal was opened and the installation checked (Figure 2) by entering the command: 
+
+>  wine --version  
+
+that indicated that Wine 8.12 was installed. 
 
 <hr />
 

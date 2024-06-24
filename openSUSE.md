@@ -24,6 +24,12 @@ A terminal was opened and the installation checked by entering
 
 >$  wine --version 
 
+This reported the installed version is version 8.0 (Figure 2)
+
+Finally, the installation was configured with the command:
+
+> winecfg
+
 <hr />
 
 ![Figure 2](images/openSUSE_figure2.jpg)
@@ -38,7 +44,7 @@ Figure 2: The openSUSE package manager installs wine version 8 which is sufficie
 
 > wine ~/Downloads/circularMT.exe
 
-When first run, ```Wine``` may undergo a configuration step before displaying the circularMT interface (Figure 3). It may also fail to run circularMT stating that wine-mono isn't installed this can be installed following the instructions [here (wine-mono-is-missing)](READMe.md#wine-mono-is-missing).
+When first run, ```Wine``` may undergo a configuration step if winecfg has not been run, before displaying the circularMT interface (Figure 3). It may also fail to run circularMT stating that wine-mono isn't installed this can be installed following the instructions [here (wine-mono-is-missing)](READMe.md#wine-mono-is-missing).
 
 Once running, data can be imported as described in the [Guide](https://github.com/msjimc/circularMT/tree/master/Guide/README.md). While circularMT is running on openSUSE, the file system will appear like a Windows based system rather than a Linux file system (Figure 3). While the user's Download folder is in /home/username/Downloads on openSUSE it appears to be in c:/users/\<username>/Downloads/ to circularMT.
 

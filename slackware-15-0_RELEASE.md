@@ -18,7 +18,7 @@ Log in as root to install Wine. The download the wine-9.9-x86_64-1sg.txz file fr
 
 This installed wine64 version 9.9 which was configured for each user with the command:
 
-> wine64 winecfg
+> winecfg
 
 circularMT_64.exe was then run with the command:
 
