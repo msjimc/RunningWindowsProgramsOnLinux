@@ -1,7 +1,7 @@
 # Arch Linux:
 
 ## Starting point
-Garuda 240428 - Xfce was installed on two 64 bit virtual machines with 4,096 MB of RAM, 4 processors. The VirtualBox virtual machine had a 25 GB hard disk while HyperV's virtual machine had a dynamically resizing hard disk. Both installations were installed with default settings and the Xfce desktop.
+Garuda 240428 - Xfce was installed on two 64 bit virtual machines with 4,096 MB of RAM, 4 processors. The VirtualBox virtual machine had a 40 GB hard disk while HyperV's virtual machine had a dynamically resizing hard disk. Both installations were installed with default settings and the Xfce desktop.
 
 The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
 
