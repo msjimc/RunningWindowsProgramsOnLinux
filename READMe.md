@@ -16,6 +16,7 @@ Elementary OS 7.1,
 EndeavourOS - Gemini,  
 Febora 40,   
 FreeBSD - 14.0_RELEASE,   
+Garuda - Xfce (240428),  
 GhostBSD-24.04,   
 macOS,   
 Manjaro - Cinnamon 23.0.1,  
@@ -63,6 +64,7 @@ where myProgram is the executable files which in this case is in your account's 
 * [EndeavourOS Gemini 2024-04-20](endeavourOS.md)
 * [Fedora release 40](fedora.md)
 * [FreeBSD 14.0-RELEASE](freeBSD.md)
+* [Garuda - Xfce](garuda.md)
 * [GhostBSD 24.04](ghostBSD-24-04.md)
 * [macOS Mojave 10.14.6](macOS.md)
 * [Manjaro - Cinnamon 23.0.1](manjaro.md)    
