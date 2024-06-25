@@ -43,44 +43,7 @@ and
 
 Both commands should suggest version 6 is installed.
 
-### Official Route
-
-***Note:*** This is from the Wine web site and I haven't tried it.
-
-First update Mint (optional) with:
-
-> sudo apt update && sudo apt upgrade
-
-Next enable the 32 bit environment:
-
-> sudo dpkg --add-architecture i386
-
-Install the GPG key:
-
-> sudo mkdir -pm755 /etc/apt/keyrings
-> sudo wget -O /etc/apt/keyrings/winehq-archive.key
-
-Add WineHQ Repository
-
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
-
-***Check the Wine download site to make sure you have the correct version for your installation***
-
-Update the installation
-
-> sudo apt update
-
-and then install Wine 
-
-> sudo apt install --install-recommends winehq-stable -y
-
-***Note:*** If this step fails try installing __wine-stable__ rather then __winehq-stable__ 
-
-Finally test the installation with:
-
-> wine --version
-
-### Install Wine 9
+### Install Wine 9 with apt and Wine download
 
 First update Mint (optional) with:
 

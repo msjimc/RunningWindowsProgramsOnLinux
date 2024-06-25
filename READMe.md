@@ -17,7 +17,8 @@ EndeavourOS - Gemini,
 Febora 40,   
 FreeBSD - 14.0_RELEASE,   
 Garuda - Xfce (240428),  
-GhostBSD-24.04,   
+GhostBSD - 24.04,   
+KDE Neon (20240624)
 macOS,   
 Manjaro - Cinnamon 23.0.1,  
 Mint 21.3 (with Mate),   
@@ -66,6 +67,7 @@ where myProgram is the executable files which in this case is in your account's 
 * [FreeBSD 14.0-RELEASE](freeBSD.md)
 * [Garuda - Xfce](garuda.md)
 * [GhostBSD 24.04](ghostBSD-24-04.md)
+* [KDE Neon](kde-neon.md)
 * [macOS Mojave 10.14.6](macOS.md)
 * [Manjaro - Cinnamon 23.0.1](manjaro.md)    
 * [Mint 21.3](mint-21-3-mate.md)
