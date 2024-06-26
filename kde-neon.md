@@ -35,17 +35,9 @@ Install missing packages
 
 > sudo apt install libpoppler-glib8:{i386,amd64}=22.02.0-2ubuntu0.*
 
-Get the Wine repository
+Then install Wine 
 
-> echo deb [signed-by=/usr/share/keyrings/winehq.gpg] http://dl.winehq.org/wine-builds/ubuntu/ jammy main | sudo tee /etc/apt/sources.list.d/winehq.list
-
-Update the installation:
-
-> sudo apt update
-
-and then install Wine 
-
-> sudo apt install winehq-stable --install-recommends 
+> sudo apt install --install-recommends winehq-stable 
 
 Finally test the installation with:  
 
