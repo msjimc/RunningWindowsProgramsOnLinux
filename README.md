@@ -18,7 +18,7 @@ Febora 40,
 FreeBSD - 14.0_RELEASE,   
 Garuda - Xfce (240428),  
 GhostBSD - 24.04,   
-KDE Neon (20240624)
+KDE Neon (20240624),  
 macOS,   
 Manjaro - Cinnamon 23.0.1,  
 Mint 21.3 (with Mate),   
