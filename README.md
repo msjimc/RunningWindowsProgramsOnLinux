@@ -32,6 +32,7 @@ Ubuntu - Noble Numbat 24.04,
 and  
 Zorin - Core 17 
 
+
 The distros were chosen because they were on the Wine download page, in the top 10 most popular distros over the last 12 months (ending June 2024) on the [DistroWatch.com](https://distrowatch.com/dwres.php?resource=popularity) or because I'd worked with them in the resent past. For example Centos is a popular OS for HPC and headless servers in British universities.
 
 I attempted to use a few other distros that ultimately ended in failure. These include a number of BSD distros which failed as their maintainers viewed desktops with destain! I give up on Gentoo as the installation seemed to be a task that was never going to end: The installation videos on Youtube were over 2 hours long. I also tried Scientific Linux as it seemed to be geared toward science type users, but gave up since it has now been superseded by Centos and none of the package managers seemed to work. Finally, CachyOS would not run on either a Virtualbox or HyperV for different reasons.  
