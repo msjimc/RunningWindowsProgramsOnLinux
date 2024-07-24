@@ -43,6 +43,18 @@ Figure 1  Centos Stream 9
 
 <hr />
 
+## Installing Winetricks and a .Net runtime
+
+Winetricks can be installed with the command:
+
+>  sudo yum install winetricks
+
+and the the runtime installed with:
+
+> winetricks -q dotnetdesktop6
+
+for the .Net 6 runtime.
+
 ## Running circularMT
 
 Once installed, download circularMT_64.exe and the sequence.gb file from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to our Downloads folder (~/Downloads) using FireFox and the issue the following commands 64 bit programs:

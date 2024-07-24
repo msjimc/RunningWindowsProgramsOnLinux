@@ -82,6 +82,10 @@ where myProgram is the executable files which in this case is in your account's 
 * [Zorin - Core 17.1](zorin-17.md)
 
 
+## Installing the .Net framework
+
+Some .Net applications require the .Net Runtime/Frame work to be installed. Currently there are versions 6 to 8 with version 9 in preview. The installation of these runtimes requires WineTrick to be installed as described in each guide above.
+
 ## Common issues
 
 * [wine32 is missing](#wine32-is-missing)

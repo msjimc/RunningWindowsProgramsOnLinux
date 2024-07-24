@@ -23,6 +23,18 @@ and wine was configure with the following command:
 
 > winecfg
 
+## Installing Winetricks and a .Net runtime
+
+Winetricks can be installed with the command:
+
+>  sudo dnf install winetricks
+
+and the the runtime installed with:
+
+> winetricks -q dotnetdesktop6
+
+for the .Net 6 runtime.
+
 ## Running circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:

@@ -47,6 +47,22 @@ If this hangs try:
 
 and rerun winecfg.
 
+## Installing Winetricks and a .Net runtime
+
+Winetricks can be installed with the command:
+
+> pacman -S winetricks
+
+and the the runtime installed with:
+
+> winetricks -q dotnetdesktop6
+
+for the .Net 6 runtime. If the installation hangs try the command:
+
+> rm -rf ~/.wine ; WINEDLLOVERRIDES="winegstreamer=" winecfg
+
+and rerun winetricks -q dotnetdesktop6
+
 
 ## Running circularMT.exe
 
