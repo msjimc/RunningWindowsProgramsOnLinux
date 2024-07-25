@@ -43,17 +43,13 @@ Figure 1  Centos Stream 9
 
 <hr />
 
-## Installing Winetricks and a .Net runtime
+## Installing Winetricks but not .Net runtime
 
 Winetricks can be installed with the command:
 
 >  sudo yum install winetricks
 
-and the the runtime installed with:
-
-> winetricks -q dotnetdesktop6
-
-for the .Net 6 runtime.
+Since the 32 - bit version of Wine can not be installed on Centos 9, its not possible to install the .Net runtime as it contains some 32-bit code. 
 
 ## Running circularMT
 

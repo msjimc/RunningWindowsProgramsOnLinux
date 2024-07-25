@@ -47,6 +47,23 @@ Wine is configured with:
 
 This will prompt you to install the wine-mono file which you should do and finally show the Wine configuration dialogue window with which you can set the Windows version if desired.
 
+## Installing Winetricks and .Net runtime
+
+Winetricks can be installed with the command:
+
+> sudo apt install winetricks
+
+and the the runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
+
+> wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
+
+***Note*** It is also possible to install the current .Net 8 and preview .Net 9 by downloading and installing the required file.
+
+for the .Net 6 runtime. If the installation hangs try the command:
+
+> wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
+
+
 ## Running circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:

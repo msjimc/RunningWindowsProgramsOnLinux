@@ -23,7 +23,7 @@ and wine was configure with the following command:
 
 > winecfg
 
-## Installing Winetricks and a .Net runtime
+## Installing Winetricks and .Net runtime
 
 Winetricks can be installed with the command:
 

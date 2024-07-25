@@ -29,11 +29,42 @@ The version of wine can then be determined with:
 
 This installation installs wine64 which is the 64 bit version that requires 64 bit programs 
 
+
+### Install 32-bit version of Wine
+
+Once the 64  bit version of wine as been installed a script is saved in /usr/local/share/wine/ to install the 32 -bit version of wine using this command:
+
+> /usr/local/share/wine/pkg32.sh install wine mesa-dri
+
+The version of wine can then be determined with:
+
+> wine --version 
+
+This script installs wine32 version 9.0 which is the 32 bit version that requires 32 bit programs.
+
 Finally, configure Wine with the following command:
 
 > winecfg
 
+If winecfg hangs, especially after you ran it for the wine64 install, but before the wine 32 bit install run:
+
+rm -R .wine 
+
+and rerun
+
 This will also download wine-mono if you didn't run the pkg install wine-mono step earlier.
+
+## Installing Winetricks and .Net runtime
+
+Winetricks can be installed with the command (as root):
+
+>  pkg install winetricks
+
+and the the runtime installed with:
+
+> winetricks -q dotnetdesktop6
+
+for the .Net 6 runtime.
 
 ## Running circularMT.exe
 

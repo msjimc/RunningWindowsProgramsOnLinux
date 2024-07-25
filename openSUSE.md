@@ -26,10 +26,6 @@ A terminal was opened and the installation checked by entering
 
 This reported the installed version is version 8.0 (Figure 2)
 
-Finally, the installation was configured with the command:
-
-> winecfg
-
 <hr />
 
 ![Figure 2](images/openSUSE_figure2.jpg)
@@ -37,6 +33,47 @@ Finally, the installation was configured with the command:
 Figure 2: The openSUSE package manager installs wine version 8 which is sufficient for circularMT.
 
 <hr />
+
+Finally, the installation was configured with the command:
+
+> winecfg
+
+## Installing Wine 9.13 via the command line
+
+First get the repository key and install it with:
+
+> wget https://download.opensuse.org/repositories/Emulators:/Wine/15.5/repodata/repomd.xml.key  
+> sudo rpm --import repomd.xml.key
+
+Add the Wine repository:
+
+> sudo zypper addrepo https://download.opensuse.org/repositories/Emulators:/Wine/15.5/Emulators:Wine.repo
+
+Refresh the package database
+
+> sudo zypper refresh  
+
+Install Wine with:
+
+sudo zypper install wine
+
+This will install Wine 9.13
+
+And finally configure wine with 
+
+> winecfg.
+
+## Installing Winetricks and .Net runtime
+
+Winetricks can be installed with the command (as root):
+
+>  sudo zypper install winetricks
+
+and the the runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
+
+> wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
+
+***Note*** It is also possible to install the current .Net 8 and the preview .Net 9 versions by downloading and installing the required file.
 
 ## Running circularMT
 
