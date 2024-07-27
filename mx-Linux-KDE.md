@@ -37,6 +37,16 @@ Figure 3
 
 <hr />
 
+## Installing Winetricks and .Net runtime
+
+Winetricks can be installed with the command (as root):
+
+>  sudo apt-get install winetricks
+
+and the the runtime installed via Winetricks with:
+
+winetricks -q dotnetdesktop6
+
 ## Using Wine to run a Windows .Net program
 
 ```Wine``` was then used to run the .Net application circularMT with the following command:

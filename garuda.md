@@ -29,7 +29,23 @@ The installation is configured with:
 
 > winecfg
 
-## Running circularMT.exe
+## Installing Winetricks and .Net runtime
+
+Winetricks can be installed with the command:
+
+> pacman -Syu winetricks
+
+and the the runtime installed with:
+
+> winetricks -q dotnetdesktop6
+
+for the .Net 6 runtime. If the installation hangs try the command:
+
+> rm -rf ~/.wine ; WINEDLLOVERRIDES="winegstreamer=" winecfg
+
+and rerun winetricks -q dotnetdesktop6
+
+## Running a Windows program like circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
 

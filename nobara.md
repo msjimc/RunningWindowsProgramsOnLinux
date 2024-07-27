@@ -15,9 +15,37 @@ Figure 1
 
 <hr />
 
+
 While Wine is preinstalled it is not configured and so requires winecfg to be run to download and install wine-mono:
 
 > winecfg
+
+## Installing Winetricks and .Net runtime
+
+Winetricks may already be installed the command:
+
+> winetricks
+
+should launch the winetricks as a GUI application. If it isn't installed try:
+
+> sudo dnf install winetricks
+
+Install the .Net runtime with:
+
+> winetricks -q dotnetdesktop6
+
+for the .Net 6 runtime. If the installation hangs try the command:
+
+> rm -rf ~/.wine ; WINEDLLOVERRIDES="winegstreamer=" winecfg
+
+and rerun winetricks -q dotnetdesktop6
+
+if this fails to work or you don't want to install Winetricks download the .Net 6 runtime (or 8/9) from  [here]
+(https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate ***Windows*** 64 bit version from the __.NET Desktop Runtime 6.0.32__ section. Install the runtime with the command (the runtime file name may differ):
+
+> wine windowsdesktop-runtime-6.0.32-win-x64.exe
+
+This will open a dialogue box asking whether you want to install the runtime.
 
 ## Running circularMT.exe
 

@@ -9,28 +9,30 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 
 ```Wine``` can work on a range of Unix inspired operating systems, such as various flavours of Linux, BSD and macOS. Whiles these operating systems have many similarities they tend to differ in how software is installed and which software repositories they favour. Consequently, how ```Wine``` is installed varies from operating system to operating system. The ```Wine``` website has instructions for installing ```Wine``` on Ubuntu, Debian, Fedora, macOS, SUSE, Slackware and FreeBSD on its [downloads page](https://wiki.winehq.org/Download). However, unlike installing applications on Windows, the process can be a little involved for some systems. Consequently, this repository contains a number of short guides that show how I installed ```Wine``` on:  
 
-Arch linux 2024.06.01,   
-Centos - Stream 9,   
-Debian - Trixie,     
-Elementary OS 7.1,  
-EndeavourOS - Gemini,  
-Febora 40,   
-FreeBSD - 14.0_RELEASE,   
-Garuda - Xfce (240428),  
-GhostBSD - 24.04,   
-KDE Neon (20240624),  
-macOS,   
-Manjaro - Cinnamon 23.0.1,  
-Mint 21.3 (with Mate),   
-MX Linux 23.3 (KDE),  
-Nobara 39,  
-openSUSE - Leap 15.5,   
-POP! OS 22.02 (Gnome),   
-Raspberry Pi Desktop,  
-SlackWare - 15.0_RELEASE ,  
-Ubuntu - Noble Numbat 24.04,  
-and  
-Zorin - Core 17 
+|OS|Comments|
+|-|-|
+|Arch linux 2024.06.01 |Installs .Net RunTime plus mono|   
+|Centos - Stream 9|Installs just 64 bit Wine|
+|Debian - Trixie|Installs .Net RunTime plus mono|  
+|Elementary OS 7.1|Installs .Net RunTime plus mono|  
+|EndeavourOS - Gemini|Installs .Net RunTime plus mono|
+|Febora 40| Installs .Net RunTime plus mono|  
+|FreeBSD - 14.0_RELEASE|Installs .Net RunTime plus mono|   
+|Garuda - Xfce (240428)|Installs .Net RunTime plus mono|
+|GhostBSD - 24.04| Installs .Net RunTime plus mono|   
+|KDE Neon (20240624)|Installs .Net RunTime plus mono| 
+|macOS| Not attempted|
+|Manjaro - Cinnamon 23.0.1| Installs .Net RunTime plus mono (but not Winetricks)|
+|Mint 21.3 (with Mate)| Installs .Net RunTime plus mono|
+|MX Linux 23.3 (KDE)| Not attempted|
+|Nobara 39| Not attempted|
+|openSUSE - Leap 15.5| Installs .Net RunTime plus mono|
+|POP! OS 22.02 (Gnome)| Not attempted| 
+|Raspberry Pi Desktop| Not attempted|  
+|SlackWare - 15.0_RELEASE| Not attempted|  
+|Ubuntu - Noble Numbat 24.04| Not attempted|  
+|Zorin - Core 17 | Not attempted|
+
 
 
 The distros were chosen because they were on the Wine download page, in the top 10 most popular distros over the last 12 months (ending June 2024) on the [DistroWatch.com](https://distrowatch.com/dwres.php?resource=popularity) or because I'd worked with them in the resent past. For example Centos is a popular OS for HPC and headless servers in British universities.
