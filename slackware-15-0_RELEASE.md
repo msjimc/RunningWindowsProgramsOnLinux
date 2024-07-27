@@ -20,6 +20,20 @@ This installed wine64 version 9.9 which was configured for each user with the co
 
 > winecfg
 
+## Installing the .Net runtime
+
+Winetricks can be installed with the command (as root):
+
+>  pkg install winetricks
+
+and the the runtime installed with:
+
+> winetricks -q dotnetdesktop6
+
+for the .Net 6 runtime.
+
+## Running a Windows application like circularMT
+
 circularMT_64.exe was then run with the command:
 
 > wine64 ~/Downloads/circularMT_64.exe (figure 1)

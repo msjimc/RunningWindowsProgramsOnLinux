@@ -66,7 +66,7 @@ and the the runtime installed with:
 
 for the .Net 6 runtime.
 
-## Running circularMT.exe
+## Running a Windows application like circularMT.exe
 
 ***Note:***  
 GhostBSD will not run an application from a terminal using root privileges, so return to your normal account with ```Ctrl``` + ```D``` before running circularMT_64.exe with:

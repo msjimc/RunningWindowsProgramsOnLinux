@@ -33,7 +33,24 @@ Finally, configure the installation with and download the wine-mono file:
 
 > winecfg
 
-## Running circularMT
+## Installing Winetricks and .Net 6 (or above)
+
+Winetricks is install with:
+
+> apt-get install winetricks
+
+Finally install the .Net 6 runtime with:
+
+winetricks -q dotnetdesktop6
+
+if this fails to work or you don't want to install Winetricks download the .Net 6 runtime (or 8/9) from  [here]
+(https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate ***Windows*** 64 bit version from the __.NET Desktop Runtime 6.0.32__ section. Install the runtime with the command (the runtime file name may differ):
+
+> wine windowsdesktop-runtime-6.0.32-win-x64.exe
+
+This will open a dialogue box asking whether you want to install the runtime.
+
+## Running a window application like circularMT
 
 
 ```Wine``` was then used to run circularMT with the following command:

@@ -47,6 +47,15 @@ and
 
 revealed that wine 9.0 had been installed.
 
+## Installing the .Net runtime
+
+The runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
+
+> wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
+
+***Note*** It is also possible to install the current .Net 8 and the preview .Net 9 versions by downloading and installing the required file.
+
+
 ## Running Windows applications such as circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:

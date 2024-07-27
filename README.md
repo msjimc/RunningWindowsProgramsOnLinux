@@ -27,7 +27,7 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 |MX Linux 23.3 (KDE)| Not attempted|
 |Nobara 39| Not attempted|
 |openSUSE - Leap 15.5| Installs .Net RunTime plus mono|
-|POP! OS 22.02 (Gnome)| Not attempted| 
+|POP! OS 22.02 (Gnome)|Installs .Net RunTime plus mono (but not Winetricks)| 
 |Raspberry Pi Desktop| Not attempted|  
 |SlackWare - 15.0_RELEASE| Not attempted|  
 |Ubuntu - Noble Numbat 24.04| Not attempted|  
