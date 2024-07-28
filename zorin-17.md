@@ -46,7 +46,27 @@ which should be 9.0.
 
 This will prompt you to install the wine-mono file which you should do and finally show the Wine configuration dialogue window with which you can set the Windows version if desired.
 
-## Running circularMT.exe
+## Installing Winetricks and the .Net 6 runtime
+
+Winetricks is install using the command:
+
+> sudo apt install --install-recommends winetricks
+
+Install the  .Net 6 runtime with:
+
+> winetricks -q dotnetdesktop6
+
+Its important to read the first few lines to see if it states you are using a 32 bit WinePrefix or you get an error message stating you need to install the .Net runtime you may need to make a 32 bit specific Wine prefix using:
+
+> WINEPREFIX="$HOME/.win32" WINEARCH=win32 wine wineboot
+
+To install the the runtime in the 32 bit Wine prefix download the runtime install file, download the runtime x86 install file from the __.NET Desktop Runtime 6.0.32__ section on this [page](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and install it with:
+
+>  WINEPREFIX="$HOME/.win32" wine  ~/Downloads/windowsdesktop-runtime-6.0.32-win-x86.exe 
+
+If the program is a .Net application built with the 'Any CPU' option it may not run in which case try the binaries compiled specifically for a x86 OS. For instance [AgileStructure](https://github.com/msjimc/AgileStructure/tree/master/program) contains the 'Any CPU' binaries (*.exe, *.dll and *.json) which run on many of the installation covered in the repo, but will not run on Zorin, bit the binaries in the AgileStructure_x86 subfolder will run in the 32 bit environment.
+
+## Running a windows application such as circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
 

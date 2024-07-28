@@ -45,7 +45,7 @@ Winetricks can be installed with the command (as root):
 
 and the the runtime installed via Winetricks with:
 
-winetricks -q dotnetdesktop6
+> winetricks -q dotnetdesktop6
 
 ## Using Wine to run a Windows .Net program
 

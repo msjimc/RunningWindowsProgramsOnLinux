@@ -59,11 +59,6 @@ and the the runtime installed by downloading the runtime installer from [here](h
 
 ***Note*** It is also possible to install the current .Net 8 and preview .Net 9 by downloading and installing the required file.
 
-for the .Net 6 runtime. If the installation hangs try the command:
-
-> wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
-
-
 ## Running circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:

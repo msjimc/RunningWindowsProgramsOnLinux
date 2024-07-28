@@ -20,17 +20,58 @@ This installed wine64 version 9.9 which was configured for each user with the co
 
 > winecfg
 
-## Installing the .Net runtime
 
-Winetricks can be installed with the command (as root):
+## Installing Winetricks 
 
->  pkg install winetricks
+To install the Winetricks you must be either root or have admin rights. To install Winetricks run:
 
-and the the runtime installed with:
+> sudo -i upgradepkg --install-new winetricks
 
-> winetricks -q dotnetdesktop6
+## Installing  a .Net runtime
 
-for the .Net 6 runtime.
+### Installing multilib for 
+ 
+ Since some core components of the .Net runtime are 32 bit, to install the runtime you need multilib which allows Slackware to make and use 32 bit binaries. The following steps came from this [web page](https://ratfactor.com/slackware/steam)
+
+These steps must be performed as root or with admin rights:
+
+> su -l root 
+
+ Make the folders and enter:  
+> mkdir multilib && cd multilib  
+
+Download the code base (may take a while):  
+
+> lftp -c "open http://www.slackware.com/~alien/multilib/ ; mirror -c -e 15.0"
+
+Enter the folder
+
+> cd 15.0  
+
+Create and install the binaries (May take another while)  
+> upgradepkg --reinstall --install-new *.t?z  
+> upgradepkg --install-new slackware64-compat32/*-compat32/*.t?z  
+> printf "\n//Multilib:\n[0-9]+alien\n[0-9]+compat32\n" >> /etc/slackpkg/blacklist
+
+Exit root
+
+> crtl + D
+
+### Install the .Net 6 runtime
+
+Download the runtime x64 install file from the __.NET Desktop Runtime 6.0.32__ section on this {page](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and delete the current Wine configuration with:
+
+> rm -R ~/.wine
+
+and remake with:
+
+> winecfg
+
+and install the .Net runtime with:
+
+> wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
+
+This will open the installer dialogue box allowing you to install the runtime.
 
 ## Running a Windows application like circularMT
 

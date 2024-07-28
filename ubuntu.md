@@ -85,9 +85,28 @@ Once the option has been changed run:
 > sudo apt-get install wine32
 
 Once installed you can change the ***Subscribe to:*** option back to its original value.
-
  
-## Running circularMT.exe
+## Installing Winetricks and the .Net 6 runtime
+
+Winetricks is install using the command:
+
+> sudo apt install --install-recommends winetricks
+
+Install the  .Net 6 runtime with:
+
+The standard Wine prefix created by winecfg command will not 
+
+> WINEPREFIX="$HOME/.win32" WINEARCH=win32 wine wineboot
+
+To install the the runtime in the 32 bit Wine prefix download the runtime install file, download the runtime x86 install file from the __.NET Desktop Runtime 6.0.32__ section on this [page](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and install it with:
+
+>  WINEPREFIX="$HOME/win32" wine  ~/Downloads/windowsdesktop-runtime-6.0.32-win-x86.exe 
+
+If the program is a .Net application built with the 'Any CPU' option it may not run in which case try the binaries compiled specifically for a x86 OS. For instance [AgileStructure](https://github.com/msjimc/AgileStructure/tree/master/program) contains the 'Any CPU' binaries (*.exe, *.dll and *.json) which run on many of the installation covered in the repository, but will not run on Ubuntu, bit the binaries in the AgileStructure_x86 subfolder will run in the 32 bit environment (see below).
+
+## Running a Windows application
+
+### Non-.Net programs and those using the 2.x to 4.x .Net framework e.g. circularMT
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
 
@@ -122,3 +141,11 @@ Once imported, the image of the mitochondrial genome can be modified as describe
 Figure 5
 
 <hr />
+
+### Programs requiring the .Net 6 -9 runtimes e.g. AgileStructure
+
+The three files required for AgileStructure can be downloaded from [here](https://github.com/msjimc/AgileStructure/tree/master/program/AgileStructure_x86). These have been compiled with the 'x86' option. These programs require the .Net runtime installed in a 32 - bit Wine Prefix whose creation was described in the previous installation section.
+
+Run a program with a non-default Wine prefix with:
+
+>  WINEPREFIX="$HOME/win32" wine ~/Downloads/AgileStructure.exe

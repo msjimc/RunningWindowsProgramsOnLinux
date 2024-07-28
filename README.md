@@ -11,29 +11,30 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 
 |OS|Comments|
 |-|-|
-|Arch linux 2024.06.01 |Installs .Net RunTime plus mono|   
+|Arch linux 2024.06.01 |Installs .Net RunTime plus wine-mono|   
 |Centos - Stream 9|Installs just 64 bit Wine|
-|Debian - Trixie|Installs .Net RunTime plus mono|  
-|Elementary OS 7.1|Installs .Net RunTime plus mono|  
-|EndeavourOS - Gemini|Installs .Net RunTime plus mono|
-|Febora 40| Installs .Net RunTime plus mono|  
-|FreeBSD - 14.0_RELEASE|Installs .Net RunTime plus mono|   
-|Garuda - Xfce (240428)|Installs .Net RunTime plus mono|
-|GhostBSD - 24.04| Installs .Net RunTime plus mono|   
-|KDE Neon (20240624)|Installs .Net RunTime plus mono| 
+|Debian - Trixie|Installs .Net RunTime plus wine-mono|  
+|Elementary OS 7.1|Installs .Net RunTime plus wine-mono|  
+|EndeavourOS - Gemini|Installs .Net RunTime plus wine-mono|
+|Febora 40| Installs .Net RunTime plus wine-mono|  
+|FreeBSD - 14.0_RELEASE|Installs .Net RunTime plus wine-mono|   
+|Garuda - Xfce (240428)|Installs .Net RunTime plus wine-mono|
+|GhostBSD - 24.04| Installs .Net RunTime plus wine-mono|   
+|KDE Neon (20240624)|Installs .Net RunTime plus wine-mono| 
 |macOS| Not attempted|
-|Manjaro - Cinnamon 23.0.1| Installs .Net RunTime plus mono (but not Winetricks)|
-|Mint 21.3 (with Mate)| Installs .Net RunTime plus mono|
-|MX Linux 23.3 (KDE)| Not attempted|
+|Manjaro - Cinnamon 23.0.1| Installs .Net RunTime plus wine-mono (but not Winetricks)|
+|Mint 21.3 (with Mate)| Installs .Net RunTime plus wine-mono|
+|MX Linux 23.3 (KDE)|Installs .Net RunTime plus wine-mono|
 |Nobara 39| Not attempted|
-|openSUSE - Leap 15.5| Installs .Net RunTime plus mono|
-|POP! OS 22.02 (Gnome)|Installs .Net RunTime plus mono (but not Winetricks)| 
-|Raspberry Pi Desktop| Not attempted|  
-|SlackWare - 15.0_RELEASE| Not attempted|  
-|Ubuntu - Noble Numbat 24.04| Not attempted|  
-|Zorin - Core 17 | Not attempted|
+|openSUSE - Leap 15.5| Installs .Net RunTime plus wine-mono|
+|POP! OS 22.02 (Gnome)|Installs .Net RunTime plus wine-mono (but not Winetricks)| 
+|Raspberry Pi Desktop|Installs .Net RunTime plus wine-mono|  
+|SlackWare - 15.0_RELEASE|Installs .Net RunTime plus wine-mono|  
+|Ubuntu - Noble Numbat 24.04|Installs .Net RunTime plus wine-mono|  
+|Zorin - Core 17 |Installs .Net RunTime plus wine-mono|
 
-
+***Note:*** Wine-mono is required for programs using the .net 2 to 5 frameworks  
+***Note:*** .Net runtime is required for programs using the .net 6 to 9 runtime installation  
 
 The distros were chosen because they were on the Wine download page, in the top 10 most popular distros over the last 12 months (ending June 2024) on the [DistroWatch.com](https://distrowatch.com/dwres.php?resource=popularity) or because I'd worked with them in the resent past. For example Centos is a popular OS for HPC and headless servers in British universities.
 
