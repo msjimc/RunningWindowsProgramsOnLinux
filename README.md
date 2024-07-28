@@ -28,13 +28,14 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 |Nobara 39| Not attempted yet|
 |openSUSE - Leap 15.5| Installs .Net RunTime plus wine-mono|
 |POP! OS 22.02 (Gnome)|Installs .Net RunTime plus wine-mono (but not Winetricks)| 
-|Raspberry Pi Desktop|Installs .Net RunTime plus wine-mono|  
+|Raspberry Pi Desktop|Not attempted yet|  
 |SlackWare - 15.0_RELEASE|Installs .Net RunTime plus wine-mono|  
 |Ubuntu - Noble Numbat 24.04|Installs .Net RunTime plus wine-mono|  
 |Zorin - Core 17 |Installs .Net RunTime plus wine-mono|
 
 ***Note:*** Wine-mono is required for programs using the .net 2 to 5 frameworks  
 ***Note:*** .Net runtime is required for programs using the .net 6 to 9 runtime installation  
+***Note:*** Winetricks helps with some tasks, but is not essential for this work. Where the .net runtime was installed with Winetricks, it could also have been installed by downloading the runtime installation file and installing with Wine has shown for the [Elementary OS](elementaryOS.md)
 
 The distros were chosen because they were on the Wine download page, in the top 10 most popular distros over the last 12 months (ending June 2024) on the [DistroWatch.com](https://distrowatch.com/dwres.php?resource=popularity) or because I'd worked with them in the resent past. For example Centos is a popular OS for HPC and headless servers in British universities.
 
