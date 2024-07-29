@@ -49,7 +49,7 @@ revealed that wine 9.0 had been installed.
 
 ## Installing the .Net runtime
 
-The runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
+The runtime is installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) after selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
 
 > wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
 

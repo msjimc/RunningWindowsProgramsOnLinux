@@ -7,7 +7,7 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 ## Installation
 
-Before ```Wine``` can be installed the multilib repository needs to be enabled. This is done by editing the ***/etc/pacman.conf*** file and uncommenting two lines:
+Before ```Wine``` can be installed the multilib repository needs to be enabled. This is done by editing the ***/etc/pacman.conf*** file. Since this is an important file it would be wise to copy the file in case of mistakes that make it unusable. It would also be wise to edit with nano rather than a GUI based text editor as these some times modify a text file in unexpected ways. Open ***/etc/pacman.conf*** and uncommenting two lines:
 
 Original: 
 
@@ -63,7 +63,7 @@ for the .Net 6 runtime. If the installation hangs try the command:
 
 and rerun winetricks -q dotnetdesktop6
 
-## Running circularMT.exe
+## Running a Windows program such as circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
 

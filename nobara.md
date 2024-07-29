@@ -22,7 +22,7 @@ While Wine is preinstalled it is not configured and so requires winecfg to be ru
 
 ## Installing Winetricks and .Net runtime
 
-Winetricks may already be installed the command:
+Winetricks may already be installed and the command:
 
 > winetricks
 

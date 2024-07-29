@@ -1,6 +1,8 @@
 # GhostBSD 
 GhostBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and a 20 GB hard drive on VirtualBox or  dynamically resizing hard disk with HyperV. The default desktop 'Mate' was installed.
 
+The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
+
 ## Preparation and installation
 
 * **The account performing the installation must have admin rights.**
@@ -48,7 +50,7 @@ Finally, configure Wine with the following command:
 
 If winecfg hangs, especially after you ran it for the wine64 install, but before the wine 32 bit install run:
 
-rm -R .wine 
+> rm -R .wine 
 
 and rerun
 
@@ -71,7 +73,7 @@ for the .Net 6 runtime.
 ***Note:***  
 GhostBSD will not run an application from a terminal using root privileges, so return to your normal account with ```Ctrl``` + ```D``` before running circularMT_64.exe with:
 
-> wine64 ~/Downloads/circularMT_64.exe
+> wine ~/Downloads/circularMT.exe
 
 This should start circular_64.exe after a configuration step that only occurs when wine is run for the first time (Figure 1).
 
@@ -79,7 +81,7 @@ This should start circular_64.exe after a configuration step that only occurs wh
 
 ![Figure 1](images/GhostBSD_24-04_figure1.jpg)
 
-Figure 1: circularMT_64.exe running on GhostBSD - 24.04 with the default Mate desktop.
+Figure 1: circularMT.exe running on GhostBSD - 24.04 with the default Mate desktop.
 
 <hr />
 

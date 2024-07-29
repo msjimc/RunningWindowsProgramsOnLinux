@@ -7,7 +7,7 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 ## Installation
 
-Elementary OS 7.1 is derived from Ubuntu so the installation is similar to the Ubuntu installation.  Initially, the system was prepared for 32 bit applications by entering the following command in a terminal:
+Elementary OS 7.1 is derived from Ubuntu so the installation is similar to the Ubuntu installation.  Initially, the system was prepared for installing 32 bit applications by entering the following command in a terminal:
 
 > sudo dpkg --add-architecture i386 
 
@@ -16,10 +16,9 @@ Next the required repository was added:
 > sudo mkdir -pm755 /etc/apt/keyrings  
 > sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 
-followed by the required source locations. For Ubuntu Noble Numbat 24.04 the command is:
+followed by the required source locations. For Elementary use the command:
 
-> 	
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+> sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
 
 ***Note:*** This is different from the Ubuntu file, if you used the latest Ubuntu version you will install Wine 6.0.
 
@@ -45,7 +44,7 @@ Wine is configured with:
 
 > winecfg
 
-This will prompt you to install the wine-mono file which you should do and finally show the Wine configuration dialogue window with which you can set the Windows version if desired.
+This will prompt you to install the wine-mono file which you should do and finally show the Wine configuration dialogue window with which you can change the Windows version if desired.
 
 ## Installing Winetricks and .Net runtime
 
@@ -59,7 +58,7 @@ and the the runtime installed by downloading the runtime installer from [here](h
 
 ***Note*** It is also possible to install the current .Net 8 and preview .Net 9 by downloading and installing the required file.
 
-## Running circularMT.exe
+## Running a Windows program like circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
 

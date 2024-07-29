@@ -10,9 +10,11 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 * **The account performing the installation must have admin rights.**
 
-Wine can be installed either quickly via the [package manager](#quick-route), the [official way](#official-route) as suggested by Wine or via a slowly a series of [commands listed below](#install-wine-9). Since the quick route installs Wine version 6, the official route ,version 8 and the slow route version 9, it may be best to use the slower route.
+Wine can be installed either quickly via the package manager, the official way as suggested by Wine (See Ubuntu method) or slowly via a series of [commands listed below](#install-wine-9). Since the quick route installs Wine version 6, the official route installs version 8 and the slow route version 9, it may be best to use the slower route.
 
 ### Install Wine 9 with apt and Wine download
+
+This based on the install described [here](https://wine.htmlvalidator.com/install-wine-on-kdeneon-base22.04.html).
 
 Enable the 32 bit environment:  
 

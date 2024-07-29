@@ -12,7 +12,7 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 * **The account performing the installation must have admin rights.**
 
-Wine can be installed either quickly via the [package manager](#quick-route), the [official way](#official-route) as suggested by Wine or via a slowly a series of [commands listed below](#install-wine-9). Since the quick route installs Wine version 6, the official route ,version 8 and the slow route version 9, it may be best to use the slower route.
+Wine can be installed either quickly via the [package manager](#quick-route) or via a slowly a series of [commands listed below](#install-wine-9). Since the quick route installs Wine version 6 and the slow route version 9, it may be best to use the slower route.
 
 ### Quick route 
 
@@ -108,7 +108,7 @@ Winetricks can be installed with the command (as root):
 
 >  sudo apt-get install winetricks
 
-and the the runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
+and the the runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate file from the  ***.NET Desktop Runtime 6.0.32*** section. This is then installed with:
 
 > wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
 

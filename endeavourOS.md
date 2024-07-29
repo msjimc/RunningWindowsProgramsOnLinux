@@ -7,7 +7,7 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 ## Installation
 
-At the end of the installation, it is possible to select which repositories to use at which point all were selected.
+At the end of the OS installation, it is possible to select which repositories to use at which point all were selected.
 
 It is then recommended to do a full system update before any installation:
 
@@ -48,7 +48,7 @@ for the .Net 6 runtime. If the installation hangs try the command:
 and rerun winetricks -q dotnetdesktop6
 
 
-## Running circularMT.exe
+## Running a Windows program like circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
 

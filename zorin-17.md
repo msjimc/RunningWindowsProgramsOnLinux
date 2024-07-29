@@ -56,7 +56,7 @@ Install the  .Net 6 runtime with:
 
 > winetricks -q dotnetdesktop6
 
-Its important to read the first few lines to see if it states you are using a 32 bit WinePrefix or you get an error message stating you need to install the .Net runtime you may need to make a 32 bit specific Wine prefix using:
+Its important to read the first few lines written to the terminal to see if it states you are using a 32 bit WinePrefix, if so or you get an error message stating you need to install the .Net runtime you may need to make a 32 bit specific Wine prefix using:
 
 > WINEPREFIX="$HOME/.win32" WINEARCH=win32 wine wineboot
 
@@ -64,7 +64,7 @@ To install the the runtime in the 32 bit Wine prefix download the runtime instal
 
 >  WINEPREFIX="$HOME/.win32" wine  ~/Downloads/windowsdesktop-runtime-6.0.32-win-x86.exe 
 
-If the program is a .Net application built with the 'Any CPU' option it may not run in which case try the binaries compiled specifically for a x86 OS. For instance [AgileStructure](https://github.com/msjimc/AgileStructure/tree/master/program) contains the 'Any CPU' binaries (*.exe, *.dll and *.json) which run on many of the installation covered in the repo, but will not run on Zorin, bit the binaries in the AgileStructure_x86 subfolder will run in the 32 bit environment.
+If the program is a .Net application built with the 'Any CPU' option it may not run in which case try the binaries compiled specifically for a x86 OS. For instance [AgileStructure](https://github.com/msjimc/AgileStructure/tree/master/program) contains the 'Any CPU' binaries (*.exe, *.dll and *.json) which run on many of the installation covered in the repo, but will not run on Zorin, but the binaries in the AgileStructure_x86 subfolder will run in the 32 bit environment.
 
 ## Running a windows application such as circularMT.exe
 

@@ -37,18 +37,16 @@ Finally, configure the installation with and download the wine-mono file:
 
 Winetricks is install with:
 
-> apt-get install winetricks
+>sudo apt install-recommends winetricks
 
-Finally install the .Net 6 runtime with:
-
-winetricks -q dotnetdesktop6
-
-if this fails to work or you don't want to install Winetricks download the .Net 6 runtime (or 8/9) from  [here]
+Finally install the .Net 6 runtime with by downloading the ***x86*** .Net 6 runtime (or 8/9) from  [here]
 (https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate ***Windows*** 64 bit version from the __.NET Desktop Runtime 6.0.32__ section. Install the runtime with the command (the runtime file name may differ):
 
-> wine windowsdesktop-runtime-6.0.32-win-x64.exe
+> wine windowsdesktop-runtime-6.0.32-win-x86.exe
 
-This will open a dialogue box asking whether you want to install the runtime.
+This will open a dialogue box asking whether you want to install the runtime. Since this installs the 32 bit version of the runtime, it is necessary to download 32 bit programs and not 64 bit programs or .Net programs compiles with the 'AnyCPU' option.
+
+***Note***: For more information on running the 32 bit runtime compared to the 64 bit version see the [Unbuntu walkthrough](../RunningWindowsProgramsOnLinux/ubuntu.md#programs-requiring-the-net-6-9-runtimes-eg-agilestructure) .
 
 ## Running a window application like circularMT
 

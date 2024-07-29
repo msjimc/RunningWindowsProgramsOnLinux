@@ -7,11 +7,11 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 ## Installation
 
-It is then recommended to do a full system update:
+It is recommended to do a full system update:
 
 > sudo pacman -Syu
 
-```Wine``` is installed with the dependencies wine-mono and wine-gecko by:
+```Wine``` is then installed with the dependencies wine-mono and wine-gecko by:
 
 > sudo pacman -S wine wine-mono wine-gecko
 

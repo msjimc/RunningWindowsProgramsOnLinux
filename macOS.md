@@ -19,3 +19,9 @@ Figure 1: circularMT.exe running on masOS (Mojave 10.14.6).
 
 ## Build from source code
 * https://wiki.winehq.org/MacOS/Building
+
+## Installing the .Net 6 runtime
+
+Once Wine has been installed, download the required runtime from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. If you want to install a newer version such as 8 or 9, either search for desired version on Google or use the links at the top of the .Net 6 runtime page.
+
+Once downloaded, double click on the file and the install dialogue box should open allowing you to install it.

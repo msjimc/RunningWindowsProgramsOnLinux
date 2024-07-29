@@ -2,8 +2,7 @@
 
 Centos Stream  9 were installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and VirtualBOX: 20 GB hard disk or HyperV: dynamically resizing hard disk and was configured with default settings for a workstation with Gnome as the desktop.
 
-***Note*** Centos appears not to have access to all the dependencies for Wine on run on Centos 64 bit to run 32 bit applications, but can run 64 bit Windows applications. Consequently, I download circularMT_64.exe below and not circular.exe.
-If you need 32 bit programs to run on your installation, at the very bottom of this page is a section on installing from [source code](#installing-from-source-code) which may help.
+***Note*** Centos appears not to have access to all the dependencies for Wine on Centos 64 bit to run 32 bit applications, but can run 64 bit Windows applications. Since the .Net 6-9 has 32 bit components its not possible to install it on Centos.  If you need 32 bit programs to run on your installation, at the very bottom of this page is a section on installing from [source code](#installing-from-source-code) which may help.
 
 The circularMT_64.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder (~/Downloads) using FireFox. 
 
@@ -51,7 +50,7 @@ Winetricks can be installed with the command:
 
 Since the 32 - bit version of Wine can not be installed on Centos 9, its not possible to install the .Net runtime as it contains some 32-bit code. 
 
-## Running circularMT
+## Running a Windows application such as circularMT
 
 Once installed, download circularMT_64.exe and the sequence.gb file from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to our Downloads folder (~/Downloads) using FireFox and the issue the following commands 64 bit programs:
  

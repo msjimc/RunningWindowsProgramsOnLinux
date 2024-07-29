@@ -41,7 +41,7 @@ This process installs wine64 version 9.0 which is the 64 bit version that requir
 
 ### Install 32-bit version of Wine
 
-Once the 64  bit version of wine as been installed a script is saved in /usr/local/share/wine/ to install the 32 -bit version of wine using this command:
+Once the 64 bit version of wine as been installed, a script is saved in /usr/local/share/wine/ to install the 32 bit version of wine using this command:
 
 > /usr/local/share/wine/pkg32.sh install wine mesa-dri
 
@@ -49,7 +49,7 @@ The version of wine can then be determined with:
 
 > wine --version 
 
-This script installs wine32 version 9.0 which is the 32 bit version that requires 32 bit programs.
+This script installs wine32 version 9.0 which is the 32 bit version that required by 32 bit programs.
 
 Finally, configure Wine with the following command:
 
@@ -69,7 +69,7 @@ and the the runtime installed with:
 
 for the .Net 6 runtime.
 
-## Running circularMT.exe
+## Running a Windows program such as circularMT.exe
 
 ***Note:***   
 FreeBSD will not run an application  with Wine from a terminal using root privileges, so return to your normal account with ```Ctrl``` + ```D``` before running circularMT_64.exe with:

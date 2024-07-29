@@ -7,7 +7,7 @@ The circularMT.exe file and the sequence.gb file were downloaded from the GitHub
 
 * **The account performing the installation must have admin rights.**
 
-The ```MX package Installer``` app was opened and the term: ***Wine*** was enter in the upper right hand text area. Initially, a single entry for Wine appeared before the other packages were added to the list. In the larger list, Wine can be found under the Misc subset (Figure 1). Checking Wine and pressing the Install button installed ```wine``` and ```wine64``` (Figure 1). The installation imported the required wine-mono file and also ran the winecfg configuration step (Figure 2).
+The ```MX package Installer``` app was opened and the term: ***Wine*** was enter in the upper right hand text area. Initially, a single entry for Wine appeared before the other packages were added to the list. In the larger list, Wine can be found under the Misc subsection (Figure 1). Checking Wine and pressing the Install button installed ```wine``` and ```wine64``` (Figure 1). The installation imported the required wine-mono file and also ran the winecfg configuration step (Figure 2).
 
 <hr />
 

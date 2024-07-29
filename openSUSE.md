@@ -69,13 +69,13 @@ Winetricks can be installed with the command (as root):
 
 >  sudo zypper install winetricks
 
-and the the runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
+and the the runtime installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) after selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
 
 > wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
 
 ***Note*** It is also possible to install the current .Net 8 and the preview .Net 9 versions by downloading and installing the required file.
 
-## Running circularMT
+## Running a Windows program such as circularMT
 
 ```Wine``` was then used to run circularMT with the following command:
 

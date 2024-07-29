@@ -11,7 +11,7 @@ The circularMT.exe file and the sequence.gb files were downloaded from the GitHu
 
 Manjaro is derived from Arch Linux and so the installation is almost the same except you don't need to edit the ***/etc/pacman.conf*** and there doesn't seem to be an issue with the winecfg step hanging.
 
-Before installing it is then recommended to do a full system update:
+Before installing Wine it then recommended to do a full system update:
 
 > sudo pacman -Syu
 
@@ -33,9 +33,14 @@ The installation is configured with:
 
 > winecfg
 
-Unlike the other installations, because I downloaded and installed wine-mono, winecfg will not ask to install it.
+Unlike the other installations, since I downloaded and installed wine-mono, winecfg will not ask to install it.
 
-## Installing the .Net runtime
+## Installing Winetricks and the .Net runtime
+
+Winetricks was installed with:
+
+> sudo apt install winetricks
+
 
 The .Net 6 runtime can be installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
 
@@ -44,7 +49,7 @@ The .Net 6 runtime can be installed by downloading the runtime installer from [h
 ***Note*** It is also possible to install the current .Net 8 and the preview .Net 9 versions by downloading and installing the required file.
 
 
-## Running circularMT.exe
+## Running a Windows program such as circularMT.exe
 
  To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
 
