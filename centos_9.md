@@ -57,7 +57,7 @@ Once installed, download circularMT_64.exe and the sequence.gb file from the Git
 
 <hr />
 
-![Figure 1](images/CentOS9_config.jpg)
+![Figure 1](images/Centos9_config.jpg)
 
 Figure 1  CentOS Stream 9
 
@@ -67,7 +67,7 @@ As with the other installations on other Linux and BSD systems, circularMT displ
 
 <hr /> 
 
-![Figure 1](images/CentOS9_figure1.jpg)
+![Figure 1](images/Centos9_figure1.jpg)
 
 Figure 2 CentOS Stream 9
 
@@ -77,7 +77,7 @@ Once, a mitochondrial genome has been imported, it's map can be modified as show
 
 <hr />
 
-![Figure 3a](images/CentOS9_figure3.jpg)
+![Figure 3a](images/Centos9_figure3.jpg)
 
 Figure 3a CentOS 9
 
