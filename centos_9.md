@@ -100,7 +100,6 @@ For CentOS Stream 8:
 sudo yum install dnf-plugins-core
 sudo yum config-manager --set-enabled powertools
 
-It seems powertools was renamed crb in Centos Stream 9
 It seems powertools was renamed crb in CentOS Stream 9
 
 The script can be viewed as containing 3 stages the first downloads the require files and packages and requires user interaction to authorise the downloads, this may take ~5 mins. The next part compiles wine and may take serval hours, but doesn't require user interaction. The final part installs and configures wine and requires you to OK a few steps via dialogue box(es). This means you can start the installation and then after a few minutes leave it to run overnight and then finish off in the morning.
