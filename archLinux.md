@@ -1,13 +1,13 @@
 # Arch Linux:
 
 ## Starting point
-Arch Linux 2024.06.01 was installed on two 64 bit virtual machines with 4,096 MB of RAM, 4 processors. The VirtualBox virtual machine had a 25 GB hard disk while HyperV's virtual machine had a dynamically resizing hard disk. Both installations were installed using the ***archinstall*** script with default settings and the gnome desktop.
+Arch Linux 2024.06.01 was installed on two 64 bit virtual machines with 4,096 MB of RAM and 4 processors. The VirtualBox virtual machine had a 25 GB hard disk while HyperV's virtual machine had a dynamically resizing hard disk. Both installations were performed using the ***archinstall*** script with default settings and the GNOME desktop.
 
-The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
+The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Downloads folder using Firefox. 
 
 ## Installation
 
-Before ```Wine``` can be installed the multilib repository needs to be enabled. This is done by editing the ***/etc/pacman.conf*** file. Since this is an important file it would be wise to copy the file in case of mistakes that make it unusable. It would also be wise to edit with nano rather than a GUI based text editor as these some times modify a text file in unexpected ways. Open ***/etc/pacman.conf*** and uncommenting two lines:
+Before ```Wine``` can be installed the multilib repository needs to be enabled. This is done by editing the ***/etc/pacman.conf*** file and uncommenting two lines:
 
 Original: 
 
@@ -35,7 +35,7 @@ and/or
 
 > wine64 --version
 
-with both commands stating wine 9.11 is installed.
+with both commands stating Wine 9.11 is installed.
 
 The installation is configured with:
 
@@ -63,9 +63,9 @@ for the .Net 6 runtime. If the installation hangs try the command:
 
 and rerun winetricks -q dotnetdesktop6
 
-## Running a Windows program such as circularMT.exe
+## Running a Windows such as circularMT.exe
 
- To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
+ To run ```circularMT``` download the program from [Github](https://githud.com/msjimc/circularMT) to your Downloads folder and issue the command below:
 
 > wine ~/Downloads/circularMT.exe 
 
