@@ -95,7 +95,7 @@ For Centos Stream 9:
 sudo yum install dnf-plugins-core
 sudo yum config-manager --set-enabled crb
 
-For Centos Stream 8:
+For CentOS Stream 8:
 
 sudo yum install dnf-plugins-core
 sudo yum config-manager --set-enabled powertools
