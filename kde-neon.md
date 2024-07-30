@@ -2,9 +2,9 @@
 
 ## Starting point
 
-KDE Neon (20240624-1012) was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors, with 40 GB hard disk (VirtualBox)  and was configured with the default settings and the KDE desktop. 
+KDE Neon (20240624-1012) was installed on a 64 bit virtual machine with 4,096 MB of RAM, and 4 processors, with 40 GB hard disk (VirtualBox)  and was configured with the default settings and the KDE desktop. 
 
-The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder (~/Downloads) using FireFox.
+The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Downloads folder (~/Downloads) using FireFox.
 
 ## Preparation and installation
 

@@ -1,17 +1,17 @@
 # Manjaro:
 
 ## Starting point
-Manjaro-Cinnamon 23.0.1 was installed on two 64 bit virtual machines with 4,096 MB of RAM, 4 processors. The VirtualBox virtual machine had a 25 GB hard disk while HyperV's virtual machine had a dynamically resizing hard disk. Both installations were installed using the default settings and the Cinnamon desktop.
+Manjaro-Cinnamon 23.0.1 was installed on two 64-bit virtual machines with 4,096 MB of RAM, and 4 processors. The VirtualBox virtual machine had a 25 GB hard disk while Hyper-V's virtual machine had a dynamically resizing hard disk. Both installations were completed using the default settings and the Cinnamon desktop.
 
-The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using Vivaldi.
+The circularMT.exe and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Downloads folder using Vivaldi.
 
 ***Note:*** Vivaldi is the default browser, but on these installations it had to be started using the ***Internet*** > ***Avahi VNC Server Browser*** option in the start menu .
 
 ## Installation
 
-Manjaro is derived from Arch Linux and so the installation is almost the same except you don't need to edit the ***/etc/pacman.conf*** and there doesn't seem to be an issue with the winecfg step hanging.
+Manjaro is derived from Arch Linux and so the installation is almost the same except you don't need to edit the ***/etc/pacman.conf*** file and there doesn't seem to be an issue with the winecfg step hanging.
 
-Before installing Wine it then recommended to do a full system update:
+Before installing Wine it is recommended to do a full system update:
 
 > sudo pacman -Syu
 
@@ -46,12 +46,12 @@ The .Net 6 runtime can be installed by downloading the runtime installer from [h
 
 > wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
 
-***Note*** It is also possible to install the current .Net 8 and the preview .Net 9 versions by downloading and installing the required file.
+***Note:*** It is also possible to install the current .Net 8 and the preview .Net 9 versions by downloading and installing the required file.
 
 
 ## Running a Windows program such as circularMT.exe
 
- To run ```circularMT``` download the program from https://githud.com/msjimc/circularMT to your Downloads folder and issue the command below:
+ To run ```circularMT``` download the program from https://github.com/msjimc/circularMT to your Downloads folder and issue the command below:
 
 > wine ~/Downloads/circularMT.exe 
 
