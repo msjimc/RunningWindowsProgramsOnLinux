@@ -20,13 +20,13 @@ It is suggested that the computer is updated and rebooted before starting the in
 
 ### Using the yum package manager
 
-Wine can be installed on CentOS Stream 9 using the yum package manager (with admin rights). Wine is not in the standard repositories and so you need to link to the Extra Packages for Enterprise Linux (EPEL) plus the crb repositories with the following command:
+Wine can be installed on CentOS Stream 9 using the yum package manager (with admin rights). Wine is not in the standard repositories and so you need to link to the Extra Packages for Enterprise Linux (EPEL) and the CRB repositories with the following command:
 
 > sudo dnf install epel-release   
 > sudo yum install dnf-plugins-core   
 > sudo yum config-manager --set-enabled crb 
 
-and then install the wine package with: 
+Then install the wine package with: 
 
 > sudo yum install wine 
 
@@ -34,11 +34,13 @@ and then install the wine package with:
 
  > winecfg
 
- This will ask to install wine-mono (Figure 1) and end when it shows a 2nd configuration dialogue box, which requires no modification.
+ This will ask to install wine-mono (Figure 1) and end when it shows a second configuration dialogue box, which requires no modification.
 
+<hr />
 
-Figure 1  Centos Stream 9
-Figure 1  CentOS Stream 9
+![Figure 1](images/centos9_config.jpg)
+
+Figure 1:  CentOS Stream 9
 
 <hr />
 
@@ -48,28 +50,20 @@ Winetricks can be installed with the command:
 
 >  sudo yum install winetricks
 
-Since the 32 - bit version of Wine can not be installed on CentOS 9, its not possible to install the .Net runtime as it contains some 32-bit code. 
+Since the 32 - bit version of Wine cannot be installed on CentOS 9, it's not possible to install the .Net runtime as it contains some 32-bit code. 
 
 
-Once installed, download circularMT_64.exe and the sequence.gb file from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to our Downloads folder (~/Downloads) using FireFox and the issue the following commands 64 bit programs:
+Once installed, download circularMT_64.exe and the sequence.gb file from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to our Downloads folder (~/Downloads) using Firefox and then issue the following commands for 64-bit programs:
  
 > wine64 ~/Downloads/circularMT_64.exe  
 
-<hr />
-
-![Figure 1](images/centos9_config.jpg)
-
-Figure 1  CentOS Stream 9
-
-<hr />
-
-As with the other installations on other Linux and BSD systems, circularMT displays the file system in the style of a Windows OS rather than a Linux system (Figure 2).
+As with installations on other Linux and BSD systems, circularMT displays the file system in the style of a Windows OS rather than a Linux system (Figure 2).
 
 <hr /> 
 
 ![Figure 1](images/centos9_figure1.jpg)
 
-Figure 2 CentOS Stream 9
+Figure 2: CentOS Stream 9
 
 <hr />
 
@@ -77,9 +71,9 @@ Once, a mitochondrial genome has been imported, it's map can be modified as show
 
 <hr />
 
-![Figure 3a](images/centos9_figure3.jpg)
+![Figure 3](images/centos9_figure3.jpg)
 
-Figure 3a CentOS 9
+Figure 3: CentOS 9
 
 <hr />
 
@@ -100,11 +94,11 @@ For CentOS Stream 8:
 sudo yum install dnf-plugins-core
 sudo yum config-manager --set-enabled powertools
 
-It seems powertools was renamed crb in CentOS Stream 9
+It seems Powertools was renamed CRB in CentOS Stream 9
 
-The script can be viewed as containing 3 stages the first downloads the require files and packages and requires user interaction to authorise the downloads, this may take ~5 mins. The next part compiles wine and may take serval hours, but doesn't require user interaction. The final part installs and configures wine and requires you to OK a few steps via dialogue box(es). This means you can start the installation and then after a few minutes leave it to run overnight and then finish off in the morning.
+The script can be viewed as containing three stages the first downloads the required files and packages and requires user interaction to authorize the downloads, this may take ~5 mins. The next part compiles wine and may take several hours, but doesn't require user interaction. The final part installs and configures wine and requires you to okay a few steps via dialogue box(es). This means you can start the installation and then after a few minutes leave it to run overnight and then finish off in the morning.
 
-To run the installation script download the install.txt files from [here](install.txt) and then run it from a terminal with bash:
+To run the installation script download the install.txt file from [here](install.txt) and then run it from a terminal with bash:
 
 bash ~/Downloads/install.txt
 

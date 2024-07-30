@@ -1,19 +1,19 @@
 # GhostBSD 
-GhostBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors and a 20 GB hard drive on VirtualBox or  dynamically resizing hard disk with HyperV. The default desktop 'Mate' was installed.
+GhostBSD 14.0-RELEASE was installed on a 64-bit virtual machine with 4,096 MB of RAM, and 4 processors and a 20 GB hard drive on VirtualBox or dynamically resizing hard disk with Hyper-V. The default desktop 'Mate' was installed.
 
-The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder using FireFox. 
+The circularMT.exe file and the sequence.gb files were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Downloads folder using Firefox. 
 
 ## Preparation and installation
 
 * **The account performing the installation must have admin rights.**
 
-If you have admin rights elevate the terminal to raised privileges with:
+If you have admin rights, elevate the terminal to raised privileges with:
 
 > su -l root
 
 and then enter root's password.
 
-The FreeBSD web site contains instructions on how to install Wine [here](https://docs.freebsd.org/en/books/handbook/wine/). Since GhostBSD is based on FreeBSD the instructions should work here too. It suggests that you first install wine-gecko which contains web browser functions that some programs expect:
+The FreeBSD website contains instructions on how to install Wine [here](https://docs.freebsd.org/en/books/handbook/wine/). Since GhostBSD is based on FreeBSD, the instructions should work here too. It suggests that you first install wine-gecko which contains web browser functions that some programs expect:
 
 >pkg install wine-gecko
 
@@ -21,7 +21,7 @@ Next it suggests installing wine-mono which is needed to run .NET applications:
 
 > pkg install wine-mono
 
-Once these have been installed wine can be installed using:
+Once these have been installed, Wine can be installed using:
 
 > pkg install wine
 
@@ -29,12 +29,12 @@ The version of wine can then be determined with:
 
 > wine64 --version
 
-This installation installs wine64 which is the 64 bit version that requires 64 bit programs 
+This installation installs wine64 which is the 64-bit version that requires 64-bit programs 
 
 
 ### Install 32-bit version of Wine
 
-Once the 64  bit version of wine as been installed a script is saved in /usr/local/share/wine/ to install the 32 -bit version of wine using this command:
+Once the 64-bit version of wine has been installed a script is saved in /usr/local/share/wine/ to install the 32 -bit version of wine using this command:
 
 > /usr/local/share/wine/pkg32.sh install wine mesa-dri
 
@@ -62,7 +62,7 @@ Winetricks can be installed with the command (as root):
 
 >  pkg install winetricks
 
-and the the runtime installed with:
+and then the runtime can be installed with:
 
 > winetricks -q dotnetdesktop6
 
@@ -75,7 +75,7 @@ GhostBSD will not run an application from a terminal using root privileges, so r
 
 > wine ~/Downloads/circularMT.exe
 
-This should start circular_64.exe after a configuration step that only occurs when wine is run for the first time (Figure 1).
+This should start circularMT_64.exe after a configuration step that only occurs when wine is run for the first time (Figure 1).
 
 <hr />
 

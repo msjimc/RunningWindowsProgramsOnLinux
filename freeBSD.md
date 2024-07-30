@@ -1,5 +1,5 @@
 # FreeBSD 
-FreeBSD 14.0-RELEASE was installed on a 64 bit virtual machine with 4,096 MB of RAM, 4 processors. On VirtualBox it had a 20 GB hard disk while on HyperV it used a dynamically resizing hard disk. The KDE desktop was installed using the following commands:
+FreeBSD 14.0-RELEASE was installed on a 64-bit virtual machine with 4,096 MB of RAM, and 4 processors. On VirtualBox it had a 20 GB hard disk while on Hyper-V it used a dynamically resizing hard disk. The KDE desktop was installed using the following commands:
 
 > pkg install --quiet --yes kde5 plasma5-sddm-kcm sddm xorg  
 > sysrc dbus_enable="YES" && service dbus start  
@@ -9,19 +9,19 @@ Firefox was then installed with:
 
 > pkg install www/firefox
 
-The circularMT_64.exe file and the sequence.gb file were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Download folder (~/Downloads) using FireFox.
+The circularMT_64.exe file and the sequence.gb file were downloaded from the GitHub (https://github.com/msjimc/circularMT) 'Program' and 'Example data' folders to the user's Downloads folder (~/Downloads) using Firefox.
 
 ## Preparation and installation
 
 * **The account performing the installation must have admin rights.**
 
-If you have admin rights elevate the terminal to raised privileges with:
+If you have admin rights, elevate the terminal to raised privileges with:
 
 > su -l root
 
 and then enter root's password.
 
-The FreeBSD web site contains instructions on how to install Wine [here](https://docs.freebsd.org/en/books/handbook/wine/). It suggests that you first install wine-gecko which contains web browser functions that some programs expect:
+The FreeBSD website contains instructions on how to install Wine [here](https://docs.freebsd.org/en/books/handbook/wine/). It suggests that you first install wine-gecko which contains web browser functions that some programs expect:
 
 >pkg install wine-gecko
 
@@ -29,7 +29,7 @@ Next it suggests installing wine-mono which is needed to run .NET applications:
 
 > pkg install wine-mono
 
-Once these have been installed wine can be installed using:
+Once these have been installed, Wine can be installed using:
 
 > pkg install wine
 
@@ -37,11 +37,11 @@ The version of wine64 can then be determined with:
 
 > wine64 --version
 
-This process installs wine64 version 9.0 which is the 64 bit version that requires 64 bit programs.
+This process installs wine64 version 9.0 which is the 64-bit version that requires 64-bit programs.
 
 ### Install 32-bit version of Wine
 
-Once the 64 bit version of wine as been installed, a script is saved in /usr/local/share/wine/ to install the 32 bit version of wine using this command:
+Once the 64-bit version of wine has been installed, a script is saved in /usr/local/share/wine/ to install the 32-bit version of wine using this command:
 
 > /usr/local/share/wine/pkg32.sh install wine mesa-dri
 
@@ -49,7 +49,7 @@ The version of wine can then be determined with:
 
 > wine --version 
 
-This script installs wine32 version 9.0 which is the 32 bit version that required by 32 bit programs.
+This script installs wine32 version 9.0 which is the 32-bit version required by 32-bit programs.
 
 Finally, configure Wine with the following command:
 
@@ -63,7 +63,7 @@ Winetricks can be installed with the command (as root):
 
 >  pkg install winetricks
 
-and the the runtime installed with:
+and then the runtime can be installed with:
 
 > winetricks -q dotnetdesktop6
 
@@ -76,7 +76,7 @@ FreeBSD will not run an application  with Wine from a terminal using root privil
 
 > wine64 ~/Downloads/circularMT_64.exe
 
-This should start circular_64.exe after a configuration step that only occurs when wine is run for the first time (Figure 1).
+This should start circularMT_64.exe after a configuration step that only occurs when wine is run for the first time (Figure 1).
 
 <hr />
 
