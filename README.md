@@ -21,7 +21,7 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 |Garuda - Xfce (240428)|Installs .Net Runtime plus Wine-Mono|
 |GhostBSD - 24.04| Installs .Net Runtime plus Wine-Mono|   
 |KDE Neon (20240624)|Installs .Net Runtime plus Wine-Mono| 
-|macOS| Not attempted yet|
+|macOS|Installs .Net Runtime plus Wine-Mono (but not Winetricks)|
 |Manjaro - Cinnamon 23.0.1| Installs .Net Runtime plus Wine-Mono (but not Winetricks)|
 |Mint 21.3 (with Mate)| Installs .Net Runtime plus Wine-Mono|
 |MX Linux 23.3 (KDE)|Installs .Net Runtime plus Wine-Mono|
