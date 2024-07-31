@@ -11,31 +11,31 @@ Basically, ```Wine``` sits in between a Windows application and the operating sy
 
 |OS|Comments|
 |-|-|
-|Arch Linux 2024.06.01 |Installs .Net Runtime plus Wine-Mono|   
+|Arch Linux 2024.06.01 |Installs .NET Runtime plus Wine-Mono|   
 |CentOS - Stream 9|Installs just 64-bit Wine|
-|Debian - Trixie|Installs .Net Runtime plus Wine-Mono|  
-|Elementary OS 7.1|Installs .Net Runtime plus Wine-Mono|  
-|EndeavourOS - Gemini|Installs .Net Runtime plus Wine-Mono|
-|Febora 40| Installs .Net Runtime plus Wine-Mono|  
-|FreeBSD - 14.0_RELEASE|Installs .Net Runtime plus Wine-Mono|   
-|Garuda - Xfce (240428)|Installs .Net Runtime plus Wine-Mono|
-|GhostBSD - 24.04| Installs .Net Runtime plus Wine-Mono|   
-|KDE Neon (20240624)|Installs .Net Runtime plus Wine-Mono| 
-|macOS|Installs .Net Runtime plus Wine-Mono (but not Winetricks)|
-|Manjaro - Cinnamon 23.0.1| Installs .Net Runtime plus Wine-Mono (but not Winetricks)|
-|Mint 21.3 (with Mate)| Installs .Net Runtime plus Wine-Mono|
-|MX Linux 23.3 (KDE)|Installs .Net Runtime plus Wine-Mono|
-|Nobara 39|Installs .Net Runtime plus Wine-Mono|
-|openSUSE - Leap 15.5| Installs .Net Runtime plus Wine-Mono|
-|POP! OS 22.02 (Gnome)|Installs .Net Runtime plus Wine-Mono (but not Winetricks)| 
+|Debian - Trixie|Installs .NET Runtime plus Wine-Mono|  
+|Elementary OS 7.1|Installs .NET Runtime plus Wine-Mono|  
+|EndeavourOS - Gemini|Installs .NET Runtime plus Wine-Mono|
+|Febora 40| Installs .NET Runtime plus Wine-Mono|  
+|FreeBSD - 14.0_RELEASE|Installs .NET Runtime plus Wine-Mono|   
+|Garuda - Xfce (240428)|Installs .NET Runtime plus Wine-Mono|
+|GhostBSD - 24.04| Installs .NET Runtime plus Wine-Mono|   
+|KDE Neon (20240624)|Installs .NET Runtime plus Wine-Mono| 
+|macOS|Installs .NET Runtime plus Wine-Mono (but not Winetricks)|
+|Manjaro - Cinnamon 23.0.1| Installs .NET Runtime plus Wine-Mono (but not Winetricks)|
+|Mint 21.3 (with Mate)| Installs .NET Runtime plus Wine-Mono|
+|MX Linux 23.3 (KDE)|Installs .NET Runtime plus Wine-Mono|
+|Nobara 39|Installs .NET Runtime plus Wine-Mono|
+|openSUSE - Leap 15.5| Installs .NET Runtime plus Wine-Mono|
+|POP! OS 22.02 (Gnome)|Installs .NET Runtime plus Wine-Mono (but not Winetricks)| 
 |Raspberry Pi Desktop|Not attempted yet|  
-|SlackWare - 15.0_RELEASE|Installs .Net Runtime plus Wine-Mono|  
-|Ubuntu - Noble Numbat 24.04|Installs .Net Runtime plus Wine-Mono|  
-|Zorin - Core 17 |Installs .Net Runtime plus Wine-Mono|
+|SlackWare - 15.0_RELEASE|Installs .NET Runtime plus Wine-Mono|  
+|Ubuntu - Noble Numbat 24.04|Installs .NET Runtime plus Wine-Mono|  
+|Zorin - Core 17 |Installs .NET Runtime plus Wine-Mono|
 
-***Note:*** Wine-Mono is required for programs using the .Net 2 to 5 frameworks.  
-***Note:*** .Net Runtime is required for programs using the .Net 6 to 9 Runtime installation.  
-***Note:*** Winetricks helps with some tasks, but is not essential for this work. Where the .Net Runtime was installed with Winetricks it could also have been installed by downloading the Runtime installation file and installing with Wine as shown for the [Elementary OS](elementaryOS.md#installing-winetricks-and-net-runtime).
+***Note:*** Wine-Mono is required for programs using the .NET 2 to 5 frameworks.  
+***Note:*** .NET Runtime is required for programs using the .NET 6 to 9 Runtime installation.  
+***Note:*** Winetricks helps with some tasks, but is not essential for this work. Where the .NET Runtime was installed with Winetricks it could also have been installed by downloading the Runtime installation file and installing with Wine as shown for the [Elementary OS](elementaryOS.md#installing-winetricks-and-net-runtime).
 
 The distros were chosen because they were on the Wine download page, in the top 10 most popular distros over the last 12 months (ending June 2024) on the [DistroWatch.com](https://distrowatch.com/dwres.php?resource=popularity) or because I'd worked with them in the recent past. For example, CentOS is a popular OS for HPC and headless servers in British universities.
 
@@ -86,9 +86,9 @@ where myProgram is the executable files which in this case is in your account's 
 * [Zorin - Core 17.1](zorin-17.md)
 
 
-## Installing the .Net framework
+## Installing the .NET framework
 
-Some .Net applications require the .Net Runtime/Frame work to be installed. Currently there are versions 6 to 8 with version 9 in preview. The installation of these Runtimes requires WineTrick to be installed as described in each guide above.
+Some .NET applications require the .NET Runtime/Frame work to be installed. Currently there are versions 6 to 8 with version 9 in preview. The installation of these Runtimes requires WineTrick to be installed as described in each guide above.
 
 ## Common issues
 
