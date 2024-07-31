@@ -9,13 +9,13 @@ The circularMT.exe and the sequence.gb files were downloaded from the GitHub (ht
 
 ## Installation
 
-Manjaro is derived from Arch Linux and so the installation is almost the same except you don't need to edit the ***/etc/pacman.conf*** file and there doesn't seem to be an issue with the winecfg step hanging.
+Manjaro is derived from Arch Linux and so the installation is almost the same. However, you don't need to edit the ***/etc/pacman.conf*** file and there doesn't seem to be an issue with the winecfg step hanging.
 
-Before installing Wine it is recommended to do a full system update:
+Before installing Wine, it is recommended to do a full system update:
 
 > sudo pacman -Syu
 
-```Wine``` is installed with the dependencies wine-mono and wine-gecko by:
+```Wine``` is installed with the dependencies wine-mono and wine-gecko with:
 
 > sudo pacman -S wine wine-mono wine-gecko
 
@@ -27,7 +27,7 @@ and/or
 
 > wine64 --version
 
-with both commands stating wine 9.9 is installed.
+Both commands stating wine 9.9 is installed.
 
 The installation is configured with:
 
@@ -35,27 +35,26 @@ The installation is configured with:
 
 Unlike the other installations, since I downloaded and installed wine-mono, winecfg will not ask to install it.
 
-## Installing Winetricks and the .Net runtime
+## Installing Winetricks and the .NET runtime
 
 Winetricks was installed with:
 
 > sudo apt install winetricks
 
-
-The .Net 6 runtime can be installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
+The .NET 6 runtime can be installed by downloading the runtime installer from [here](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) by selecting the appropriate Windows ***.NET Desktop Runtime 6.0.32*** file. This is then installed with:
 
 > wine ~/Downloads/windowsdesktop-runtime-6.0.32-win-x64.exe
 
-***Note:*** It is also possible to install the current .Net 8 and the preview .Net 9 versions by downloading and installing the required file.
+***Note:*** It is also possible to install the current .NET 8 and the preview .NET 9 versions by downloading and installing the required file.
 
 
 ## Running a Windows program such as circularMT.exe
 
- To run ```circularMT``` download the program from https://github.com/msjimc/circularMT to your Downloads folder and issue the command below:
+ To run ```circularMT``` download the program from [Here](https://github.com/msjimc/circularMT) to your Downloads folder and issue the command below:
 
 > wine ~/Downloads/circularMT.exe 
 
-This will open the program which can be used as described in the [guide]( https://github.com/msjimc/circularMT/tree/master/Guide/README.md).
+This will open the program, which can be used as described in the [guide]( https://github.com/msjimc/circularMT/tree/master/Guide/README.md).
 
 <hr />
 
